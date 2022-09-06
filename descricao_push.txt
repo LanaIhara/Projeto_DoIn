@@ -1,0 +1,26 @@
+-> começar descrição (push/commit) das pastas, após, arquivos separados:
+ex: começar com: Nano_DoIn -> css -> style.css
+Para não sobrepor cada descrição.
+
+-> descricao_push.txt
+arquivo txt sobre as descrições de cada commits
+
+~°~ DESCRIÇÕES ~°~
+
+-> nano_doin (pasta)
+pasta referente aos arquivos do projeto feito por Nano (Lana)
+
+-> index.hmtl (arquivo)
+página principal do html 
+
+-> css (subpasta)
+pasta referente aos arquivos css do projeto
+
+-> style.css (arquivo css)
+arquivo css referente à página principal
+
+-> main_style.css
+arquivo css de esboço (página principal)
+
+-> esbocos (subpasta)
+pasta referente às interfaces do projeto
