@@ -7,8 +7,8 @@ arquivo txt sobre as descrições de cada commits
 
 ~°~ DESCRIÇÕES ~°~
 
--> nano_doin (pasta)
-pasta referente aos arquivos do projeto feito por Nano (Lana)
+-> nano (pasta)
+pasta referente aos arquivos feitos por Nano
 
 -> index.hmtl (arquivo)
 página principal do html 
