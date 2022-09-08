@@ -31,22 +31,45 @@
     /* Alinha os elementos verticalmente no meio (vertical-align: middle) */
     vertical-align: middle;
 
-    padding-left: 50px; /* MEXER NO PADDING */
+    padding-left: 3.75vw; /* vw - view width (largura [porcentagem total] da tela do usuário)
+                            -> auxilia ao site ser responsivo
+    (neste padding, ele mexe de cada elemento <li>) */
 
     /*  Fontes: line-height: https://www.w3schools.com/cssref/pr_dim_line-height.asp
+                vw (view width): https://www.horadecodar.com.br/2020/03/19/como-fazer-uma-div-com-altura-e-largura-da-tela-do-usuario/
                 Geral:  https://www.clubedohardware.com.br/forums/topic/1451109-alinhar-objetos-de-uma-li/ */
 }
 
+/* Todos os <ul> dentro da class="menu" */ 
 .menu ul {
-    height: 50px;
+
+    /* Altura do <ul> (vh - view height: altura [porcentagem total] da tela do usuário) 
+    -> O mesmo objetivo se aplica ao view height: auxilia ao site ser responsivo */
+    height: 15vh;
+
+    /* Fonte: vh (view height): https://www.horadecodar.com.br/2020/03/19/como-fazer-uma-div-com-altura-e-largura-da-tela-do-usuario/*/
 }
 
-.menu img {
-    height: 50px;
+/* Logotipo DoIn (imagem) */
+.logotype {
+
+    /*Altura do logotipo DoIn (imagem) */
+    height: 15vh;
 }
 
+/* Lupa de pesquisa (imagem) */
+.symbol {
+
+    /*Altura da lupa de pesquisa (imagem) */
+    height: 3.75vh;
+} 
+
+/* Cabeçalho */
 header {
-    background-color: blueviolet;
+    background-color: blueviolet; /* MODIFICAR COR (placeholder) */
+
+    /*Altura total que o <header> irá ocupar na tela */
+    height: 15.5vh;
 }
 
 /* Introdução de um gif (logo do DoIn) ao abrir o index do site */
@@ -58,23 +81,23 @@ header {
 
     /* Serve para ordenar os elementos da página (qual elemento irá sobrepor a outra. OBS: por conta do position: fixed) 
     No caso, a <div> e seus elementos sobrepõem todo o restante do site (header, section, footer) */
-    z-index: 99999;
+    z-index: 50;
 
     /* Tamanho que os elementos da <div> id="introduction" e ela própria poderão ocupar no espaço da tela */
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100%; /* 100 % da tela */
     height: 100%;
 
     /* Opacidade */
     opacity: 1;
     
     /* Cor de fundo */
-    background-color: #fff;
+    background-color: #D1EAFF;
 
     /* Imagem de fundo (sobrepõe o background-color) */
-    background-image: url('https://38.media.tumblr.com/bec5933eea5043acf6a37bb1394384ab/tumblr_meyfxzwXUc1rgpyeqo1_400.gif');
-    background-size: 298px 298px; /* Tamanho da imagem de fundo */
+    background-image: url("../img/doin_introduction.gif"); /* .. - serve para sair da pasta */
+    background-size: 500px 500px; /* Tamanho da imagem de fundo no site */
     background-position: center; /* Posição da imagem de fundo (centro) */
     background-repeat: no-repeat; /* Não há repetição da imagem caso ela não compor a tela inteira */
 
@@ -83,31 +106,59 @@ header {
                 Videoaula sobre position e z-index: https://pt.khanacademy.org/computing/computer-programming/html-css/css-layout-properties/pt/css-position */
 }
 
-
-/* (SUBSTITUIR) Como posicionar texto dentro de uma imagem */
-
 /* Duas imagens sobre "Importância da Troca e Doação" (elemento <div>) */
-/* (SUBSTITUIR) Container que possui a imagem e o texto (elemento <div>) */
-.container {
+.slogan {
     
     /* Posição dos elementos no site; quebra o padrão de posição estabelecido por cada elemento do html
         Relative: a <div> class="container" não possuirá a posição padrão imposto pelo site,
-        portanto, não desarrumando a identação/visual ao diminuir o tamanho da tela */
+        portanto, não desarrumando a identação/visual ao diminuir o tamanho da tela.
+        Além disso, NÃO IRÁ SOBREPOR elementos, fazendo com que um fique debaixo/após do outro. */
     position: relative;
+    
+    /* Alinha os elementos de imagem no centro verticalmente (para isso, o display: flex) 
+    Fonte: https://www.freecodecamp.org/portuguese/news/como-centralizar-uma-imagem-na-vertical-e-na-horizontal-com-css/#:~:text=Outra%20forma%20de%20centralizar%20uma,que%20voc%C3%AA%20tamb%C3%A9m%20precisar%C3%A1%20usar. */
+    display: flex;
+    justify-content: center;
+
+    /*Altura da <div> class="slogan" */
+    height: 84.5vh;
 }
 
-/* (SUBSTITUIR) Imagem que terá um texto em cima dela */
-#image {
+.slogan img {
     position: absolute;
+    height: 42.25vh;
+    z-index: 1;
 }
-  
-#texto {
+
+#img {
+    top: 42.25vh;
+}
+
+.slogan label {
+    /* Posição dos elementos no site; quebra o padrão de posição estabelecido por cada elemento do html
+        Relative: a <div> class="container" não possuirá a posição padrão imposto pelo site e também
+        haverá a SOBREPOSIÇÃO de elementos, fazendo com que um fique sobreposto a outro. Porém, poderá
+        desarrumar a identação/visual ao diminuir o tamanho da tela. 
+    FOnte: https://www.devmedia.com.br/como-usar-a-propriedade-position-css/24451 */
     position: absolute;
-    font-size: 32px;
-    left: 250px;
-    top: 135px;
-    /* Fonte: https://pt.stackoverflow.com/questions/106102/como-posicionar-texto-dentro-de-uma-imagem#:~:text=3%20Respostas&text=Primeiro%20voc%C3%AA%20deve%20colocar%20ambos,%2C%20bottom%20e%2Fou%20left%20. */
+
+    /* Texto alinhado verticalmente (centro) */
+    text-align: center;
 }
+
+#text_doacao {
+    font-size: 5vh;
+    top: 21vh;
+    z-index: 2;
+}
+
+#text_troca {
+    font-size: 5vh;
+    top: 62.75vh;
+    z-index: 2;
+}
+/* Fonte: https://pt.stackoverflow.com/questions/106102/como-posicionar-texto-dentro-de-uma-imagem#:~:text=3%20Respostas&text=Primeiro%20voc%C3%AA%20deve%20colocar%20ambos,%2C%20bottom%20e%2Fou%20left%20. */
+
 
 /* Coisas talvez uteis:
 https://www.hostinger.com.br/tutoriais/criar-site-responsivo-css
