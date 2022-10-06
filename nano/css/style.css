@@ -122,6 +122,9 @@ header {
 
     /*Altura da <div> class="slogan" */
     height: 84.5vh;
+
+    /* Imagem de fundo (sem repetição) */
+    background-color: blue;
 }
 
 .slogan img {
@@ -139,7 +142,7 @@ header {
         Relative: a <div> class="container" não possuirá a posição padrão imposto pelo site e também
         haverá a SOBREPOSIÇÃO de elementos, fazendo com que um fique sobreposto a outro. Porém, poderá
         desarrumar a identação/visual ao diminuir o tamanho da tela. 
-    FOnte: https://www.devmedia.com.br/como-usar-a-propriedade-position-css/24451 */
+    Fonte: https://www.devmedia.com.br/como-usar-a-propriedade-position-css/24451 */
     position: absolute;
 
     /* Texto alinhado verticalmente (centro) */
@@ -158,7 +161,6 @@ header {
     z-index: 2;
 }
 /* Fonte: https://pt.stackoverflow.com/questions/106102/como-posicionar-texto-dentro-de-uma-imagem#:~:text=3%20Respostas&text=Primeiro%20voc%C3%AA%20deve%20colocar%20ambos,%2C%20bottom%20e%2Fou%20left%20. */
-
 
 /* Coisas talvez uteis:
 https://www.hostinger.com.br/tutoriais/criar-site-responsivo-css
