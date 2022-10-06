@@ -64,13 +64,13 @@
     height: 3.75vh;
 } 
 
-/* Cabeçalho */
+/* Cabeçalho 
 header {
     background-color: blueviolet; /* MODIFICAR COR (placeholder) */
 
     /*Altura total que o <header> irá ocupar na tela */
-    height: 15.5vh;
-}
+    /*height: 15.5vh;
+}*/
 
 /* Introdução de um gif (logo do DoIn) ao abrir o index do site */
 #introduction {
@@ -161,6 +161,10 @@ header {
     z-index: 2;
 }
 /* Fonte: https://pt.stackoverflow.com/questions/106102/como-posicionar-texto-dentro-de-uma-imagem#:~:text=3%20Respostas&text=Primeiro%20voc%C3%AA%20deve%20colocar%20ambos,%2C%20bottom%20e%2Fou%20left%20. */
+
+.dropdown:hover .dropdown-menu {
+    display: bloco;
+}
 
 /* Coisas talvez uteis:
 https://www.hostinger.com.br/tutoriais/criar-site-responsivo-css
