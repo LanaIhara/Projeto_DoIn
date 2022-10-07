@@ -5,9 +5,13 @@
 	<title>DoIn</title> <!-- Título do site -->
     <link rel="stylesheet" type="text/css" href="css/style.css" /> <!-- refere-se ao main_style.css -->
     <script type="text/javascript" src="js/jquery-3.6.1.min.js"></script> <!-- refere-se ao jQuery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    -->
+    <link rel="stylesheet" href="lib/bootstrap-5.2.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/bootstrap-5.2.2-dist/js/bootstrap.bundle.min.js">
+
 </head>
 
     <!-- Estrutura do site/Conteúdo do site -->
@@ -43,20 +47,17 @@
                     </ul> 
                 </li>
 
-                <!-- Example single danger button -->
-                <div class="btn-group">
-                    <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                    Action
-                    </button>
-                    <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Separated link</a></li>
-                    </ul>
-                </div>
-
+                <div class="dropdown show">
+                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Dropdown link
+                    </a>
+                  
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </div>
                 <!-- Sumário -->
                 <li><a href="#">Início</a></li>
                 <li><a href="#">Sobre</a></li>
@@ -102,5 +103,6 @@
         </footer>
     
     <!-- file:///F:/Projeto%20DoIn%20-%20Troca%20e%20Doa%C3%A7%C3%A3o%20de%20Produtos/Website/Nano_DoIn/index.html-->
+    
 	</body>
 </html>
