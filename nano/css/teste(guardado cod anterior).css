@@ -21,18 +21,9 @@
 /*  class -> . 
     id=   -> # */
 
-button {
-    background-color: aqua;
-}
 header {
     position: absolute;
     z-index: 5;
-    background-color: blueviolet; /* MODIFICAR COR (placeholder) */
-
-    /*Altura total que o <header> irá ocupar na tela */
-    height: 15.5vh;
-
-    width: 100vw;
 }
 .dropdown {
     display: inline-block;
@@ -44,7 +35,6 @@ header {
     width: 100%;
     overflow: auto;
     box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
-    margin-left: 3.75vw;
   }
   .dropdown:hover .dropdown-content {
     display: block;
@@ -54,15 +44,14 @@ header {
     color: #000000;
     padding: 5px;
     text-decoration: none;
-    background-color: pink;
   }
   .dropdown-content a:hover {
-    color: yellow;
+    color: #FFFFFF;
     background-color: #00A4BD;
   }
 /* Fonte: https://blog.hubspot.com/website/html-dropdown#:~:text=A%20drop%2Ddown%20menu%20is,user%20disengages%20from%20the%20menu. */
 
-.teste {
+.menu li {
     /* Altura da linha (line-height): */
     /*line-height: 50px; */
 
@@ -72,7 +61,7 @@ header {
     /* Alinha os elementos verticalmente no meio (vertical-align: middle) */
     vertical-align: middle;
 
-    margin-left: 3.75vw; /* vw - view width (largura [porcentagem total] da tela do usuário)
+    padding-left: 3.75vw; /* vw - view width (largura [porcentagem total] da tela do usuário)
                             -> auxilia ao site ser responsivo
     (neste padding, ele mexe de cada elemento <li>) */
 
@@ -82,11 +71,11 @@ header {
 }
 
 /* Todos os <ul> dentro da class="menu" */ 
-.menu {
+.menu ul {
 
     /* Altura do <ul> (vh - view height: altura [porcentagem total] da tela do usuário) 
     -> O mesmo objetivo se aplica ao view height: auxilia ao site ser responsivo */
-    height: 15.5vh;
+    height: 15vh;
 
     /* Fonte: vh (view height): https://www.horadecodar.com.br/2020/03/19/como-fazer-uma-div-com-altura-e-largura-da-tela-do-usuario/*/
 }
@@ -105,10 +94,13 @@ header {
     height: 3.75vh;
 } 
 
-.main {
-    position: relative;
-    padding-top: 15.5vh;
-}
+/* Cabeçalho 
+header {
+    background-color: blueviolet; /* MODIFICAR COR (placeholder) */
+
+    /*Altura total que o <header> irá ocupar na tela */
+    /*height: 15.5vh;
+}*/
 
 /* Introdução de um gif (logo do DoIn) ao abrir o index do site */
 #introduction {
