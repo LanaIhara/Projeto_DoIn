@@ -55,6 +55,7 @@ header {
     padding: 5px;
     text-decoration: none;
     background-color: pink;
+    margin-right: 3.75vw;
   }
   .dropdown-content a:hover {
     color: yellow;
@@ -165,14 +166,18 @@ header {
     background-color: blue;
 }
 
-.slogan img {
+/*.slogan img {
     position: absolute;
     height: 42.25vh;
     z-index: 1;
 }
 
 #img {
-    top: 42.25vh;
+    right: 1vw;
+}*/
+.slogan img {
+    height: 65vh;
+    width: 45vw;
 }
 
 .slogan label {
@@ -188,15 +193,21 @@ header {
 }
 
 #text_doacao {
+    /*font-size: 5vh;
+    top: 21vh;
+    z-index: 2;*/
     font-size: 5vh;
     top: 21vh;
-    z-index: 2;
+    left: 22.5vw;
 }
 
 #text_troca {
-    font-size: 5vh;
+    /*font-size: 5vh;
     top: 62.75vh;
-    z-index: 2;
+    z-index: 2;*/
+    font-size: 5vh;
+    top: 21vh;
+    right: 22.5vw;
 }
 /* Fonte: https://pt.stackoverflow.com/questions/106102/como-posicionar-texto-dentro-de-uma-imagem#:~:text=3%20Respostas&text=Primeiro%20voc%C3%AA%20deve%20colocar%20ambos,%2C%20bottom%20e%2Fou%20left%20. */
 
