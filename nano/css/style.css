@@ -21,8 +21,14 @@
 /*  class -> . 
     id=   -> # */
 
-button {
-    background-color: aqua;
+.indice_items {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+
+    display: inline;
+    vertical-align: middle;
+    margin-left: 3.75vw;
 }
 header {
     position: absolute;
@@ -44,7 +50,9 @@ header {
     width: 100%;
     overflow: auto;
     box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+
     margin-left: 3.75vw;
+    border-radius: 10px;
   }
   .dropdown:hover .dropdown-content {
     display: block;
@@ -52,12 +60,13 @@ header {
   .dropdown-content a {
     display: block;
     color: #000000;
-    padding: 5px;
+    padding: 10px;
     text-decoration: none;
     background-color: pink;
-    margin-right: 3.75vw;
+    /*margin-right: 3.75vw;*/
   }
-  .dropdown-content a:hover {
+  .dropdown-content a:hover 
+  {
     color: yellow;
     background-color: #00A4BD;
   }
@@ -80,6 +89,8 @@ header {
     /*  Fontes: line-height: https://www.w3schools.com/cssref/pr_dim_line-height.asp
                 vw (view width): https://www.horadecodar.com.br/2020/03/19/como-fazer-uma-div-com-altura-e-largura-da-tela-do-usuario/
                 Geral:  https://www.clubedohardware.com.br/forums/topic/1451109-alinhar-objetos-de-uma-li/ */
+    padding: 15px;
+    border-radius: 10px;
 }
 
 /* Todos os <ul> dentro da class="menu" */ 
