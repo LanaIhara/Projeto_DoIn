@@ -222,7 +222,15 @@ header {
 }
 /* Fonte: https://pt.stackoverflow.com/questions/106102/como-posicionar-texto-dentro-de-uma-imagem#:~:text=3%20Respostas&text=Primeiro%20voc%C3%AA%20deve%20colocar%20ambos,%2C%20bottom%20e%2Fou%20left%20. */
 
+.curiosidades {
+    height: 30vh;
+    background-color: brown;
+}
 
+.items {
+    height: 30vh;
+    background-color: yellow;
+}
 
 /* Coisas talvez uteis:
 https://www.hostinger.com.br/tutoriais/criar-site-responsivo-css
