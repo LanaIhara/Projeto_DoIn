@@ -234,6 +234,22 @@ img {
     left: 42.25vw;
 }
 
+.categoria {
+    height: 50vh;
+    background-color: purple;
+    position: relative;
+}
+
+.up {
+    position: absolute;
+}
+
+.blue {
+    display: block;
+    height: 15vh;
+    z-index: 4;
+}
+
 /* Coisas talvez uteis:
 https://www.hostinger.com.br/tutoriais/criar-site-responsivo-css
 https://www.maujor.com/tutorial/propriedades-css-para-estilizacao-de-listas.php */

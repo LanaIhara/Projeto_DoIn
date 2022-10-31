@@ -5,10 +5,10 @@
 	<title>DoIn</title> <!-- Título do site -->
     <link rel="stylesheet" type="text/css" href="css/style.css" /> <!-- refere-se ao main_style.css -->
     <script type="text/javascript" src="js/jquery-3.6.1.min.js"></script> <!-- refere-se ao jQuery -->
-    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <link rel="icon" type="image/png" href="img/favicon.png" /> <!-- refere-se ao favicon.png -->
     <link rel="stylesheet" href="lib/bootstrap-5.2.2-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="lib/bootstrap-5.2.2-dist/js/bootstrap.bundle.min.js">
-
+    <script type="text/javascript" src="js/scroll.js"></script>
 </head>
 
     <!-- Estrutura do site/Conteúdo do site -->
@@ -66,24 +66,30 @@
         </header>
 
         <!-- Seção principal -->
-        <section class="main">
-            
+        <section>
+
             <!-- Contâiner com as categorias (carrossel no celular) -->
-            <div>
-                <div></div>
+            <div class="categoria">
+                <div class="up">
+                    <img src="img/blue.jpg" class="blue">
+                    <label class="blue">TExto</label>
+                </div>
             </div>
 
-            <!-- Imagem e informações sobre "Importância da Troca e Doação" -->
-            <div class="slogan">
+            <!-- Importância da Troca e doação -->
+            <div class="main">
+                <!-- Imagem e informações sobre "Importância da Troca e Doação" -->
+                <div class="slogan">
 
-                <!-- Imagem sobre doação -->
-                <img src="img/doacao.png">
+                    <!-- Imagem sobre doação -->
+                    <img src="img/doacao.png">
 
-                <!-- Imagem sobre troca -->
-                <img id="img" src="img/pink.jpg">
+                    <!-- Imagem sobre troca -->
+                    <img id="img" src="img/pink.jpg">
 
-                <!-- Container sobre o "OU" -->
-                <div id="circulo"></div>
+                    <!-- Container sobre o "OU" -->
+                    <div id="circulo"></div>
+                </div>
             </div>
 
             <!-- Seção com dados de curiosidade sobre o projeto -->
