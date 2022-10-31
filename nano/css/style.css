@@ -16,6 +16,8 @@
     padding: 0;
     margin: 0;
     border: 0;
+
+    font-family: 'Segoe UI';
 }
 
 /*  class -> . 
@@ -33,12 +35,12 @@
 header {
     position: absolute;
     z-index: 5;
-    background-color: blueviolet; /* MODIFICAR COR (placeholder) */
+    background-color: #FFC470; /* #FFBF65 -> mais escuro */
 
     /*Altura total que o <header> irá ocupar na tela */
     height: 15.5vh;
 
-    width: 100vw;
+    width: 98.75vw;
 }
 .dropdown {
     display: inline-block;
@@ -62,7 +64,8 @@ header {
     color: #000000;
     padding: 10px;
     text-decoration: none;
-    background-color: pink;
+    background-color: #5D3701;
+    color: white;
     /*margin-right: 3.75vw;*/
   }
   .dropdown-content a:hover 
@@ -72,6 +75,17 @@ header {
   }
 /* Fonte: https://blog.hubspot.com/website/html-dropdown#:~:text=A%20drop%2Ddown%20menu%20is,user%20disengages%20from%20the%20menu. */
 
+button {
+    background-color: #9B5B00;
+}
+
+button a {
+    color: white;
+}
+
+img {
+    border-radius: 20px;
+}
 .teste {
     /* Altura da linha (line-height): */
     /*line-height: 50px; */
@@ -171,7 +185,7 @@ header {
     justify-content: center;
 
     /*Altura da <div> class="slogan" */
-    height: 84.5vh;
+    height: 65vh;
 
     /* Imagem de fundo (sem repetição) */
     background-color: blue;
@@ -185,41 +199,12 @@ header {
 
 #img {
     right: 1vw;
-}*/
+}
 .slogan img {
     height: 65vh;
     width: 45vw;
-}
+}*/
 
-.slogan label {
-    /* Posição dos elementos no site; quebra o padrão de posição estabelecido por cada elemento do html
-        Relative: a <div> class="container" não possuirá a posição padrão imposto pelo site e também
-        haverá a SOBREPOSIÇÃO de elementos, fazendo com que um fique sobreposto a outro. Porém, poderá
-        desarrumar a identação/visual ao diminuir o tamanho da tela. 
-    Fonte: https://www.devmedia.com.br/como-usar-a-propriedade-position-css/24451 */
-    position: absolute;
-
-    /* Texto alinhado verticalmente (centro) */
-    text-align: center;
-}
-
-#text_doacao {
-    /*font-size: 5vh;
-    top: 21vh;
-    z-index: 2;*/
-    font-size: 5vh;
-    top: 21vh;
-    left: 22.5vw;
-}
-
-#text_troca {
-    /*font-size: 5vh;
-    top: 62.75vh;
-    z-index: 2;*/
-    font-size: 5vh;
-    top: 21vh;
-    right: 22.5vw;
-}
 /* Fonte: https://pt.stackoverflow.com/questions/106102/como-posicionar-texto-dentro-de-uma-imagem#:~:text=3%20Respostas&text=Primeiro%20voc%C3%AA%20deve%20colocar%20ambos,%2C%20bottom%20e%2Fou%20left%20. */
 
 .curiosidades {
@@ -230,6 +215,23 @@ header {
 .items {
     height: 30vh;
     background-color: yellow;
+}
+
+#circulo {
+    /* Posição dos elementos no site; quebra o padrão de posição estabelecido por cada elemento do html
+        Relative: a <div> class="container" não possuirá a posição padrão imposto pelo site e também
+        haverá a SOBREPOSIÇÃO de elementos, fazendo com que um fique sobreposto a outro. Porém, poderá
+        desarrumar a identação/visual ao diminuir o tamanho da tela. 
+    Fonte: https://www.devmedia.com.br/como-usar-a-propriedade-position-css/24451 */
+    position: absolute;
+    border-radius: 100px;
+    height: 200px;
+    width: 200px;
+    z-index: 3;
+    background-color: yellow;
+
+    top: 20vh;
+    left: 42.25vw;
 }
 
 /* Coisas talvez uteis:
