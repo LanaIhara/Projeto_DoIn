@@ -250,6 +250,10 @@ img {
     z-index: 4;
 }
 
+.h {
+    height: 20vh;
+}
+
 /* Coisas talvez uteis:
 https://www.hostinger.com.br/tutoriais/criar-site-responsivo-css
 https://www.maujor.com/tutorial/propriedades-css-para-estilizacao-de-listas.php */
