@@ -235,7 +235,7 @@ img {
 }
 
 .categoria {
-    height: 50vh;
+    height: 30vh;
     background-color: purple;
     position: relative;
 }
@@ -245,13 +245,18 @@ img {
 }
 
 .blue {
-    display: block;
+    /*display: block;*/
     height: 15vh;
     z-index: 4;
 }
 
 .h {
-    height: 20vh;
+    height: 15vh;
+    width: 15vw;
+    display: block;
+    z-index: 4;
+
+    background-color: yellow;
 }
 
 /* Coisas talvez uteis:
