@@ -244,15 +244,11 @@ img {
     position: absolute;
 }
 
-.blue {
-    /*display: block;*/
-    height: 15vh;
-    z-index: 4;
-}
+
 
 .h {
-    height: 15vh;
-    width: 15vw;
+    height: 20vh;
+    width: 20vw;
     display: block;
     z-index: 4;
 
