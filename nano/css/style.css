@@ -86,6 +86,17 @@ button a {
 img {
     border-radius: 20px;
 }
+
+#img_doador {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+
+#img_donatario {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
 .teste {
     /* Altura da linha (line-height): */
     /*line-height: 50px; */
