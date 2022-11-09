@@ -125,6 +125,8 @@ img {
     -> O mesmo objetivo se aplica ao view height: auxilia ao site ser responsivo */
     height: 15.5vh;
 
+    width: 98.95vw;
+
     /* Fonte: vh (view height): https://www.horadecodar.com.br/2020/03/19/como-fazer-uma-div-com-altura-e-largura-da-tela-do-usuario/*/
 }
 
@@ -251,7 +253,7 @@ section {
 
 .categoria {
     height: 15vh;
-    width: 50vw;
+    width: 98.95vw;
     background-color: blueviolet;
     position: absolute;
     margin-top: 15.5vh;
@@ -262,13 +264,19 @@ section {
 
 .up {
     position: relative;
-    display: inline;
+    width: 6.5vw;
+    margin-left: 1.65vw;
 }
 
 .h {
-    height: 10vh;
-    width: 10vw;
+    height: 7.5vh;
+    width: 6.5vw;
     background-color: yellow;
+}
+
+.i {
+    height: 5vh;
+    width: 5vw;
 }
 
 /* Coisas talvez uteis:
