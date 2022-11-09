@@ -202,6 +202,8 @@ img {
 
     /* Imagem de fundo (sem repetição) */
     background-color: blue;
+
+    width: 98.95vw;
 }
 
 /*.slogan img {
@@ -254,7 +256,7 @@ section {
 .categoria {
     height: 15vh;
     width: 98.95vw;
-    background-color: blueviolet;
+    background-color: gray;
     position: absolute;
     margin-top: 15.5vh;
     display: flex;
@@ -263,20 +265,18 @@ section {
 }
 
 .up {
+    margin-top: 1.25vh;
     position: relative;
-    width: 6.5vw;
-    margin-left: 1.65vw;
+    width: 7.15vw;
+    margin-left: 1vw;
+    text-align: center;
 }
 
 .h {
-    height: 7.5vh;
-    width: 6.5vw;
-    background-color: yellow;
-}
-
-.i {
-    height: 5vh;
-    width: 5vw;
+    height: 10vh;
+    width: 7.15vw;
+    background-color: black;
+    border-radius: 20px;
 }
 
 /* Coisas talvez uteis:
