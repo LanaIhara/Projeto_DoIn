@@ -249,10 +249,6 @@ img {
     left: 42.25vw;
 }
 
-section {
-    position: relative;
-}
-
 .categoria {
     height: 15vh;
     width: 98.95vw;
@@ -277,6 +273,20 @@ section {
     width: 7.15vw;
     background-color: black;
     border-radius: 20px;
+}
+
+/* PC Escola: 1600 x 900 (width x height) */
+@media (max-width: 1300px) {
+    .h {
+        display: flex;
+        width: 150px;
+    }
+}
+
+@media (max-width: 1900px) {
+    .categoria {
+        display: flex;
+    }
 }
 
 /* Coisas talvez uteis:

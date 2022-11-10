@@ -1,21 +1,38 @@
 .categoria {
-    height: 15vh;
-    width: 50vw;
-    background-color: blueviolet;
-    z-index: 4;
+    height: 125px;
+    width: 1600px;
+    background-color: gray;
     position: absolute;
-    margin-top: 10vh;
+    margin-top: 135px;
     display: flex;
+
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+
+    /* Fonte: https://pt.stackoverflow.com/questions/440679/colocar-elementos-lado-a-lado-usando-html-e-css */
 }
 
 .up {
+    margin-top: 10px;
+    margin-bottom: 10px;
     position: relative;
+    width: 117px;
+    margin-left: 15px;
+    text-align: center;
+    background-color: yellow;
+    border-radius: 20px;
 }
 
 .h {
-    height: 10vh;
-    width: 10vw;
-    z-index: 4;
+    height: 75px;
+    width: 117px;
+    border-radius: 20px;
+}
 
-    background-color: yellow;
+/* PC Escola: 1600 x 900 (width x height) */
+@media (max-width: 1599px) {
+    .categoria {
+        display: grid;
+        height: 250px;
+    }
 }
