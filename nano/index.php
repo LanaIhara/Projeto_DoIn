@@ -3,10 +3,13 @@
 <head>
 	<meta charset="UTF-8" /> <!-- Torna o site na linguagem pt-BR (português - Brasil), sendo possível utilizar acentos -->
 	<title>DoIn</title> <!-- Título do site -->
+
     <link rel="stylesheet" type="text/css" href="css/style.css" /> <!-- refere-se ao main_style.css -->
+    <link rel="stylesheet" type="text/css" href="css/header.css" />
+
     <script type="text/javascript" src="js/jquery-3.6.1.min.js"></script> <!-- refere-se ao jQuery -->
     <link rel="icon" type="image/png" href="img/favicon.png" /> <!-- refere-se ao favicon.png -->
-    <script type="text/javascript" src="js/scroll.js"></script>
+    <!--<script type="text/javascript" src="js/scroll.js"></script> -->
 
     <link
     rel="stylesheet"
@@ -159,6 +162,7 @@
         </footer>
     
     <!-- file:///F:/Projeto%20DoIn%20-%20Troca%20e%20Doa%C3%A7%C3%A3o%20de%20Produtos/Website/Nano_DoIn/index.html-->
+    <!-- localhost/Projeto_Doin/nano -->
     
 	</body>
 </html>
