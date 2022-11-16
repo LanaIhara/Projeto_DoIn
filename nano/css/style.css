@@ -23,6 +23,7 @@
 /*  class -> . 
     id=   -> # */
 
+/* HEADER.PHP */
 .indice_items {
     background-color: white;
     padding: 15px;
@@ -30,8 +31,9 @@
 
     display: inline;
     vertical-align: middle;
-    margin-left: 3.75vw;
+    height: 50px;
 }
+
 header {
     position: absolute;
     z-index: 5;
@@ -45,17 +47,21 @@ header {
 .dropdown {
     display: inline-block;
     position: relative;
+    margin-left: 50px; /* 3.75vw */
+  }
+  #pag_content_drop {
+    width: 200px;
   }
   .dropdown-content {
     display: none;
     position: absolute;
-    width: 100%;
+    width: 225px;
     overflow: auto;
     box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
-
-    margin-left: 3.75vw;
+    
     border-radius: 10px;
   }
+  
   .dropdown:hover .dropdown-content {
     display: block;
   }
@@ -75,12 +81,9 @@ header {
   }
 /* Fonte: https://blog.hubspot.com/website/html-dropdown#:~:text=A%20drop%2Ddown%20menu%20is,user%20disengages%20from%20the%20menu. */
 
-button {
+.button {
     background-color: #9B5B00;
-}
-
-button a {
-    color: white;
+    border-radius: 20px;
 }
 
 img {
@@ -97,7 +100,7 @@ img {
     border-top-left-radius: 0;
 }
 
-.teste {
+.logo_login {
     /* Altura da linha (line-height): */
     /*line-height: 50px; */
 
@@ -107,7 +110,7 @@ img {
     /* Alinha os elementos verticalmente no meio (vertical-align: middle) */
     vertical-align: middle;
 
-    margin-left: 3.75vw; /* vw - view width (largura [porcentagem total] da tela do usuário)
+    margin-left: 50px; /*3.75 vw - view width (largura [porcentagem total] da tela do usuário)
                             -> auxilia ao site ser responsivo
     (neste padding, ele mexe de cada elemento <li>) */
 
@@ -116,7 +119,13 @@ img {
                 Geral:  https://www.clubedohardware.com.br/forums/topic/1451109-alinhar-objetos-de-uma-li/ */
     padding: 15px;
     border-radius: 10px;
+    height: 50px;
 }
+
+.espac_log {
+    margin-left: 225px;
+}
+/* ------- */
 
 /* Todos os <ul> dentro da class="menu" */ 
 .menu {
@@ -276,6 +285,7 @@ img {
 }
 
 /* PC Escola: 1600 x 900 (width x height) */
+/* PC Lana: 1366 x 768 */
 @media (max-width: 1300px) {
     .h {
         display: flex;

@@ -6,9 +6,12 @@
     <link rel="stylesheet" type="text/css" href="css/style.css" /> <!-- refere-se ao main_style.css -->
     <script type="text/javascript" src="js/jquery-3.6.1.min.js"></script> <!-- refere-se ao jQuery -->
     <link rel="icon" type="image/png" href="img/favicon.png" /> <!-- refere-se ao favicon.png -->
-    <link rel="stylesheet" href="lib/bootstrap-5.2.2-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="lib/bootstrap-5.2.2-dist/js/bootstrap.bundle.min.js">
     <script type="text/javascript" src="js/scroll.js"></script>
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    /> <!-- animate.style -->
 </head>
 
     <!-- Estrutura do site/Conteúdo do site -->
@@ -19,51 +22,9 @@
         <script type="text/javascript" src="js/main_script.js"></script> <!-- refere-se ao arquivo main_script.js -->
 
 		<!-- Cabeçalho -->
-		<header class="menu">
-
-                <!-- Logotipo do site DoIn-->
-                <a href="#" class="teste"><img class="logotype" src="img/doin_logotype.png"></a>
-                
-                <!-- Seção de pesquisa -->
-                <div class="dropdown">
-                    <div class="indice_items">
-                        <!-- Título -->
-                        Páginas do site
-                        
-                        <!-- Símbolo da lupa de pesquisa -->
-                        <img class="symbol" src="img/search.png">
-                    </div>
-                    <div class="dropdown-content">
-                        <a href="#">Doações e Trocas</a>
-                        <a href="#">Ranking dos doadores</a> <!-- ou Top usuários do site -->
-                        <a href="#">Página inicial</a>
-                    </div>
-                </div>
-                <!-- Fonte: https://blog.hubspot.com/website/html-dropdown#:~:text=A%20drop%2Ddown%20menu%20is,user%20disengages%20from%20the%20menu. -->
-
-                <!-- Sumário -->
-                <div class="dropdown">
-                    <div class="indice_items">
-                        <!-- Título -->
-                        Menu de navegação
-                        
-                        <!-- Símbolo da lupa de pesquisa -->
-                        <img class="symbol" src="img/search.png">
-                    </div>
-                    <div class="dropdown-content">
-                        <a href="#sonic">Categorias</a>
-                        <a href="#">Importância da Doação e Troca</a>
-                        <a href="#">Vantagens</a>
-                        <a href="#">YouTube</a>
-                    </div>
-                </div>
-                
-                <!-- Botões de login e cadastrar-se-->
-                <!-- Colocar uma condição de aparecer os botões se o usuário estiver deslogado -->
-                <button class="teste" type="submit"><a href="#">Login</a></button>
-                <button class="teste" type="submit"><a href="#">Cadastre-se</a></button>
-
-        </header>
+		<?php
+            include 'includes/header.php';
+        ?>
 
         <!-- Seção principal -->
         <section>

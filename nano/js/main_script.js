@@ -7,5 +7,4 @@ $(document).ready(function(){
     após passado o tempo definido, irá escurecer/se apagar aos poucos (efeito "fadeOut") por 0.5s
     fazendo uma transição do gif mostrado ao index do site */
     setTimeout('$(".preload").fadeOut(500)', 3500);
- 
 });
