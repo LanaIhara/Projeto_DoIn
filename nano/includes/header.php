@@ -1,8 +1,8 @@
 <!-- Cabeçalho -->
-<header class="menu">
+<header class="cabeçalho">
 
     <!-- Logotipo do site DoIn-->
-    <a href="#" class="logo_login"><img class="logotype" src="img/doin_logotype.png"></a>
+    <a href="#" class="img_slogan"><img class="logotype" src="img/doin_logotype.png"></a>
 
     <!-- Seção de pesquisa -->
     <div class="dropdown">
@@ -23,7 +23,7 @@
 
     <!-- Sumário -->
     <div class="dropdown">
-        <div class="indice_items">
+        <div class="indice_items" id="menu_nav">
             <!-- Título -->
             Menu de navegação
             
@@ -38,9 +38,21 @@
         </div>
     </div>
 
+    <div class="button adicional"> <!-- indice_items adicional -->
+        <!-- Título -->
+            
+        <!-- Símbolo da lupa de pesquisa -->
+        <img class="symbol" src="img/search.png">
+    </div>
+
+    <div class="button adicional">
+        <!-- Título -->
+        Sobre nós
+    </div>
+
     <!-- Botões de login e cadastrar-se-->
     <!-- Colocar uma condição de aparecer os botões se o usuário estiver deslogado -->
-    <div class="logo_login button espac_log"><a href="#">Login</a></div>
-    <div class="logo_login button"><a href="#">Cadastre-se</a></div>
+    <a href="#"><div class="button espac_log">Cadastre-se</div></a>
+    <a href="#"><div class="button">Login</div></a>
 
 </header>

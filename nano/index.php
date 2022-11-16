@@ -29,7 +29,7 @@
         <!-- Seção principal -->
         <section>
 
-            <!-- Contâiner com as categorias (carrossel no celular) -->
+            <!-- Container com as categorias (carrossel no celular) -->
             <div class="categoria">
                 <!-- 1 -->
                 <div class="up">
