@@ -9,7 +9,7 @@
 */
 
 /* Classe do <header> */
-.cabeçalho {
+.header {
 
     /* Altura total que o <header> irá ocupar na tela */
     height: 115px; /* valor anterior: 15.5vh */
@@ -20,73 +20,113 @@
     position: fixed; /* ou absolute */
     z-index: 5; /* permite com que o dropdown aconteça */
     background-color: #FFC470; /* #FFBF65 -> mais escuro */
-
-    /* Fonte: vh (view height): https://www.horadecodar.com.br/2020/03/19/como-fazer-uma-div-com-altura-e-largura-da-tela-do-usuario/*/
 }
 
-.indice_items {
+.button_hover {
     background-color: white;
     padding: 10px;
     border-radius: 10px;
     margin-top: 30px;
-
-    /*display: inline;
-    text-align: center;*/
 }
 
-#menu_nav {
+/* Referente à <div> sobre o "menu de navegação" */
+#menu {
+
+    /* Espaçamento esquerdo de fora do elemento <div> */
     margin-left: 40px;
 }
 
+/* <div> visual como um botão das "páginas do site" e do "menu de navegação" */
 .dropdown {
     display: inline-block;
     position: relative;
     margin-left: 20px; /* 3.75vw */
-  }
-  #pag_content_drop {
+}
+
+/* <div> do conteúdo dropdown das "páginas do site" */
+#pag_content {
+
+    /* OBS: Utilizado apenas para ajustar a largura (width) */
     width: 200px;
-  }
-  .dropdown-content {
+}
+
+/* <div> com o conteúdo "descido" das "páginas do site" e do "menu de navegação" */
+.dropdown-content {
+
+    /* "display: none" não deixa o conteúdo visível na página */
     display: none;
+    
     position: absolute;
+
+    /* Largura da <div> */
     width: 225px;
     overflow: auto;
+
+    /* Sombra da <div>, formando uma "caixa" */
     box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
     
+    /* Arredondamento da borda da <div> */
     border-radius: 10px;
-  }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  .dropdown-content a {
-    display: block;
-    color: #000000;
-    padding: 10px;
-    text-decoration: none;
-    background-color: #5D3701;
-    color: white;
-  }
-  .dropdown-content a:hover 
-  {
-    color: yellow;
-    background-color: #00A4BD;
-  }
-/* Fonte: https://blog.hubspot.com/website/html-dropdown#:~:text=A%20drop%2Ddown%20menu%20is,user%20disengages%20from%20the%20menu. */
+}
 
-.adicional {
+/* Ação "hover" (passar a seta do mouse em cima da <div> "dropdown") */
+.dropdown:hover .dropdown-content {
+
+    /* Ao passar a seta do mouse em cima da <div> "dropdown", aparece
+    a <div> "dropdown-content" com "display: block" */
+    display: block;
+}
+
+/* Elemento <a href=""> dentro da <div> "dropdown-content" ("páginas do site" e "menu de navegação") */
+.dropdown-content a {
+
+    display: block;
+
+    /* Espaçamento de dentro do elemento <div> */
+    padding: 10px;
+
+    /* Tira-se toda a decoração do texto (como sublinhado e azul em <a href="">) */
+    text-decoration: none;
+
+    /* Cor do fundo da <div> */
+    background-color: #5D3701;
+
+    /* Cor do texto */
+    color: white;
+}
+
+/* Ação ao passar a seta do mouse ("hover") nas caixas do elemento <a href=""> */
+.dropdown-content a:hover {
+    
+    /* Cor do texto */
+    color: yellow;
+
+    /* Cor de fundo */
+    background-color: #00A4BD;
+}
+/* Fonte do dropdown: https://blog.hubspot.com/website/html-dropdown#:~:text=A%20drop%2Ddown%20menu%20is,user%20disengages%20from%20the%20menu. */
+
+/* Referente ao espaçamento da <div> "sobre nós" */
+.espac_contact {
     margin-right: 85px !important;
 }
 
-.detalhe {
+/* Referente a cor das <div> "home" e "sobre nós" */
+.purple_button {
     background-color: #CB91F4 !important;
 }
 
-.info {
+/* <div> com "home" e "sobre nós" dentro */
+.home_contact {
+
+    /* OBS: Será retirado os dois campos na versão mobile, por isso o seu uso */
     display: inline;
 }
 
-.teste {
+/* <div> que armazena o "home", "sobre nós", "login" e "cadastre-se" */
+.div_right {
+
+    /* OBS: Usado apenas para alinhar os elementos na direita com float */
     display: inline;
     float: right;
 
@@ -94,9 +134,8 @@
     margin-right: 15px;
 }
 
+/* As <div> dos tópicos: "home", "sobre nós", "login" e "cadastre-se" */
 .button {
-    /* Altura da linha (line-height): */
-    /*line-height: 50px; */
 
     /* Mostra os elementos alinhados na horizontal (display: inline) */
     display: inline;
@@ -119,6 +158,7 @@
     margin-right: 15px;
 }
 
+/* */
 .a_button {
     text-decoration: none !important;
     color: white !important; 
@@ -127,16 +167,17 @@
     margin-left espac_log (substituí o valor, não soma com a classe logo_login) */
 }
 
-/* Logotipo DoIn (imagem) */
-.logotype {
+/* <img> do logotipo DoIn */
+.img_logo {
 
-    /*Altura do logotipo DoIn (imagem) */
+    /* Altura do logotipo DoIn */
     margin-top: 12.5px;
     height: 90px;/*15vh;*/
     border-radius: 20px;
 }
 
-.img_slogan {
+/* <div> com a imagem do logo dentro */
+.div_logo {
 
     /* Altura da linha (line-height): */
     /*line-height: 50px; */
@@ -161,15 +202,16 @@
     vertical-align: middle;
 }
 
-/* Lupa de pesquisa (imagem) */
-.symbol {
+/* <img> apenas representativa (lupa, menu e início) */
+.img_symbol {
 
     /*Altura da lupa de pesquisa (imagem) */
     height: 30px;/*3.75vh;*/
     vertical-align: middle;
 }
 
-.home {
+/* <img> da <div> início*/
+.img_home {
     border-radius: 10px;
     background-color: white;
 }
@@ -177,25 +219,29 @@
 /* Cell Lana: 1089 x 2160 */
 @media (max-width: 1100px) {
     
-    .cabeçalho {
+    .header {
         height: 230px;
     }
 
-    .img_slogan {
+    .div_logo {
         display: block;
         width: 100%;
         margin: 0;
     }
 
-    .logotype {
+    .img_logo {
         display: block;
         margin-left: auto;
         margin-right: auto;
     }
 
-    .info {
+    .home_contact {
         display: none;
     }
+}
+
+@media (max-width: 700px) {
+
 }
 
 /* PC Lana: 1366 x 768 */
@@ -204,7 +250,7 @@
 
 /* PC Escola: 1600 x 900 (width x height) */
 @media (min-width: 1100px) {
-    #menu_nav {
+    #menu {
         display: none;
     }
 }
