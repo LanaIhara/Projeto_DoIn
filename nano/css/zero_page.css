@@ -1,0 +1,21 @@
+/* Retira o valor do padding, margin e border definido por padrão, zerando-os */
+
+/* Todos os elementos (*) */
+* {
+    /*  -> Margin / Margem - Espaçamento fora do conteúdo.
+        -> Padding / Preenchimento - Espaçamento dentro dos limites do conteúdo.
+
+        Hierarquia (de fora até chegar ao conteúdo):
+            Margin Box
+            Border Box
+            Padding Box
+            Element Box ( O elemento em si, div, span, entre outros )
+        https://pt.stackoverflow.com/questions/189978/qual-a-diferen%C3%A7a-entre-padding-e-margin-no-css 
+       
+    Retirada de todos os espaçamentos dos elementos, ou seja, para realizar uma customização deles. */
+    padding: 0;
+    margin: 0;
+    border: 0;
+
+    font-family: 'Segoe UI';
+}

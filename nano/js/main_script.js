@@ -6,6 +6,6 @@ $(document).ready(function(){
     /* Por um tempo determinado (3.5s), irá mostrar os elementos da <div> com class="preload" e,
     após passado o tempo definido, irá escurecer/se apagar aos poucos (efeito "fadeOut") por 0.5s
     fazendo uma transição do gif mostrado ao index do site */
-    setTimeout('$(".preload").fadeOut(250)', 4000);
+    setTimeout('$(".preload").fadeOut(250)', 3750);
     //clearTimeout(timer);
 });
