@@ -1,21 +1,46 @@
-/* MUDAR */
+/* CSS referente à página "perfil_usuario.php" */
 
-/* Todos os elementos (*) */
-* {
-    /*  -> Margin / Margem - Espaçamento fora do conteúdo.
-        -> Padding / Preenchimento - Espaçamento dentro dos limites do conteúdo.
+.primeiro {
+    background-color: rgba(240, 40, 40, 1);
+    height: 510px;
+    width: 100%;
 
-        Hierarquia (de fora até chegar ao conteúdo):
-            Margin Box
-            Border Box
-            Padding Box
-            Element Box ( O elemento em si, div, span, entre outros )
-        https://pt.stackoverflow.com/questions/189978/qual-a-diferen%C3%A7a-entre-padding-e-margin-no-css 
-       
-    Retirada de todos os espaçamentos dos elementos, ou seja, para realizar uma customização deles. */
-    padding: 0;
-    margin: 0;
-    border: 0;
-
-    font-family: 'Segoe UI';
+    position: relative;
+    top: 115px; /* me sinto burra pq pensava que precisava de padding-top */
 }
+
+.sinonimo {
+    padding: 30px; /* não deu certo de usar margin (desconfigura o cabeçalho fixed) então vai a merda do padding */
+    height: 450px;
+
+    /* Pinta o container (o elemento) e o espaçamento criado (padding) 
+    NÃO pode usar cor sólida (as pré-estabelecidas: white, blue...) */
+    background-image: linear-gradient(to bottom, rgba(240, 255, 40, 1) 0%, rgba(240, 255, 40, 1) 100%), linear-gradient(to bottom, rgba(240, 40, 40, 1) 0%, rgba(240, 40, 40, 1) 100%);
+    background-clip: content-box, padding-box;
+
+    /* Fonte: https://stackoverflow.com/questions/14628601/can-i-add-background-color-only-for-padding */
+}
+
+.teste {
+    margin: 50px;
+    background-color: blue;
+    height: 350px;
+    width: 40%;
+}
+
+
+.info {
+    height: 65px;
+    width: 100%;
+    margin-top: 15px;
+    background-color: pink;
+
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+/*.antonimo {
+    height: 500px;
+    background-color: blueviolet;
+    float: right;
+}*/

@@ -6,6 +6,7 @@
 
     <link rel="stylesheet" type="text/css" href="css/zero_page.css"/>
     <link rel="stylesheet" type="text/css" href="css/header.css" />
+    <link rel="stylesheet" type="text/css" href="css/perfil_usuario.css" />
 
     <script type="text/javascript" src="js/jquery-3.6.1.min.js"></script> <!-- refere-se ao jQuery -->
     <link rel="icon" type="image/png" href="img/favicon.png" /> <!-- refere-se ao favicon.png -->
@@ -21,5 +22,18 @@
         <?php
             include 'includes/header.php';
         ?>
+
+        <!-- Início da página do usuário -->
+        <div class="primeiro">
+            <div class="sinonimo">
+                <div class="teste">
+                    <div class="info"></div>
+                    <div class="info"></div>
+                    <div class="info"></div>
+                    <div class="info"></div>
+                </div>
+                <div class="antonimo"></div>
+            </div>
+        </div>
     </body>
 </html>

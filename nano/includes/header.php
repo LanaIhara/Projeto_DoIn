@@ -3,7 +3,7 @@
 
     <!-- Logotipo do site DoIn (img) -->
     <!-- Ao clicar, redireciona à página principal -->
-    <a href="#" class="div_logo"><img class="img_logo" src="img/doin_logotype.png"></a>
+    <a href="index.php" class="div_logo"><img class="img_logo" src="img/doin_logotype.png"></a>
 
     <!-- PÁGINAS DO SITE -->
     <div class="dropdown">
