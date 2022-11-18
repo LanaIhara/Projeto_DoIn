@@ -39,8 +39,11 @@
     border-bottom-left-radius: 20px;
 }
 
-/*.antonimo {
+.antonimo {
     height: 500px;
     background-color: blueviolet;
     float: right;
-}*/
+
+    position: absolute;
+    z-index: 40;
+}
