@@ -22,12 +22,19 @@
         <!-- Início da página do usuário -->
         <div class="primeiro">
             <div class="sinonimo">
-                <div class="antonimo"></div>
+
+                <!-- PERFIL do usuário -->
+                <div class="antonimo" id="perfil">
+                    <div class="yellow"></div>
+                </div>
+                <div class="antonimo" id="product"></div>
+                <div class="antonimo" id="config"></div>
+                <div class="antonimo" id="change_perfil"></div>
                 <div class="teste">
-                    <div class="info"></div>
-                    <div class="info"></div>
-                    <div class="info"></div>
-                    <div class="info"></div>
+                    <div class="info">Perfil</div>
+                    <div class="info">Meus Produtos</div>
+                    <div class="info">Configurações</div>
+                    <div class="info">Alterar Perfil</div>
                 </div>
             </div>
         </div>

@@ -49,3 +49,30 @@
 
     border-radius: 20px;
 }
+
+/*#perfil {
+    display: none;
+}*/
+
+.yellow {
+    background-color: gray;
+    height: 300px;
+
+    border-radius: 20px;
+
+    margin-top: 10px;
+    margin-left: 300px;
+    margin-right: 10px;
+}
+
+#product {
+    display: none;
+}
+
+#config {
+    display: none;
+}
+
+#change_perfil {
+    display: none;
+}
