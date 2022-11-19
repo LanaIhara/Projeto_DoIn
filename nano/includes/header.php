@@ -26,6 +26,7 @@
             <a href="#">Doações e Trocas</a>
             <a href="#">Ranking dos doadores</a> <!-- ou Top usuários do site -->
             <a href="perfil_usuario.php">Perfil do usuário</a>
+            <a href="teste.php">Teste</a>
             <a href="index.php">Página inicial</a>
         </div>
     </div>

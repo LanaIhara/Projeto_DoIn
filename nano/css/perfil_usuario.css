@@ -1,7 +1,8 @@
 /* CSS referente à página "perfil_usuario.php" */
 
+
 .primeiro {
-    background-color: rgba(240, 40, 40, 1);
+    background-color: red;
     height: 510px;
     width: 100%;
 
@@ -10,40 +11,102 @@
 }
 
 .sinonimo {
-    padding: 30px; /* não deu certo de usar margin (desconfigura o cabeçalho fixed) então vai a merda do padding */
-    height: 450px;
+    /*padding: 30px; /* não deu certo de usar margin (desconfigura o cabeçalho fixed) então vai a merda do padding */
+    height: calc(100% - 40px);
+    width: calc(100% - 60px);
+    /* Fonte: https://stackoverflow.com/questions/29210902/combine-divs-with-percentage-width-with-margin-in-pixels */
 
-    /* Pinta o container (o elemento) e o espaçamento criado (padding) 
-    NÃO pode usar cor sólida (as pré-estabelecidas: white, blue...) */
-    background-image: linear-gradient(to bottom, rgba(240, 255, 40, 1) 0%, rgba(240, 255, 40, 1) 100%), linear-gradient(to bottom, rgba(240, 40, 40, 1) 0%, rgba(240, 40, 40, 1) 100%);
-    background-clip: content-box, padding-box;
+    /* topo, direita, inferior, esquerda */
+    margin: 20px 30px 20px 30px;
+    position: absolute;
 
-    /* Fonte: https://stackoverflow.com/questions/14628601/can-i-add-background-color-only-for-padding */
+    background-color: yellow;
+
+    border-radius: 20px;
 }
 
 .teste {
-    margin: 50px;
+    margin-top: 35px;
+    margin-left: 120px;
     background-color: blue;
     height: 350px;
-    width: 40%;
-}
+    width: 30%;
 
+    position: relative;
+}
 
 .info {
     height: 65px;
     width: 100%;
     margin-top: 15px;
-    background-color: pink;
+    background-color: red;
 
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+
+    position: absolute;
+
+    display: flex;
+    align-items: center;
+    /* Fonte: https://www.visualdicas.com.br/programacao/css/24-como-centralizar-um-texto-verticalmente-usando-o-flexbox */
+
+    font-size: 25px;
+
+    padding-left: 15px;
 }
 
 .antonimo {
-    height: 500px;
+    height: calc(100% - 40px);
     background-color: blueviolet;
+    width: 50%;
     float: right;
+    position: relative;
+    z-index: 2;
+    /* Fonte: https://pt.stackoverflow.com/questions/178699/centralizar-um-div-com-texto-e-position-absolute-no-centro-da-div-pai */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 150px;
 
-    position: absolute;
-    z-index: 40;
+    border-radius: 20px;
+}
+
+#button_product {
+    margin-top: 95px;
+}
+
+#button_config {
+    margin-top: 175px;
+}
+
+#button_change {
+    margin-top: 255px;
+}
+
+#perfil {
+    display: none;
+}
+
+.yellow {
+    background-color: gray;
+    height: 300px;
+
+    border-radius: 20px;
+
+    margin-top: 10px;
+    margin-left: 300px;
+    margin-right: 10px;
+
+    font-size: 30px;
+}
+
+#product {
+    display: none;
+}
+
+#config {
+    display: none;
+}
+
+#change_perfil {
+    display: none;
 }
