@@ -61,8 +61,7 @@
     background-color: blueviolet;
     width: 50%;
     float: right;
-    position: relative;
-    z-index: 2;
+
     /* Fonte: https://pt.stackoverflow.com/questions/178699/centralizar-um-div-com-texto-e-position-absolute-no-centro-da-div-pai */
     margin-top: 20px;
     margin-bottom: 20px;
@@ -101,13 +100,11 @@
 .ur_mom {
     height: 100%;
 
-    width: calc(60% - 30px);
+    width: 60%;
     background-color: aqua;
 
-    margin-right: 30px;
-    border-radius: 20px;
-
-    flex: left;
+    /*margin-right: 30px;
+    border-radius: 20px;*/
 }
 
 .yellow {
@@ -117,10 +114,6 @@
     width: 10%;
 
     border-radius: 20px;
-
-    font-size: 30px;
-
-    flex: right;
 }
 
 #product {

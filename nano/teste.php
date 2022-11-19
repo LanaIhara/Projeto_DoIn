@@ -32,8 +32,8 @@
                 <!-- PERFIL do usuário -->
                 <div class="antonimo" id="perfil">
                     <div class="ur_bro">
-                        <div class="ur_mom"></div>
                         <div class="yellow"></div>
+                        <div class="ur_mom"></div>
                     </div>
                 </div>
 

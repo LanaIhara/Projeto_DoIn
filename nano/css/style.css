@@ -106,11 +106,6 @@
     background-color: brown;
 }
 
-.items {
-    height: 30vh;
-    background-color: yellow;
-}
-
 #circulo {
     /* Posição dos elementos no site; quebra o padrão de posição estabelecido por cada elemento do html
         Relative: a <div> class="container" não possuirá a posição padrão imposto pelo site e também
