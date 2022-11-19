@@ -21,13 +21,7 @@ function select_perfil(){
 }
 
 function select_product(){
-    // referencia o primeiro 'h1' do layout html
-    //const div = document.getElementsByTagName('button')[0];
-    //div.style.color = 'blue';
-    
-    /*const div = document.getElementById('perfil');
-    
-    div.style.backgroundColor = 'white'; */
+
     const collection = document.getElementsByClassName("info");
     collection[0].style.backgroundColor = "red";
     collection[1].style.backgroundColor = "pink";
@@ -43,13 +37,7 @@ function select_product(){
 }
 
 function select_config(){
-    // referencia o primeiro 'h1' do layout html
-    //const div = document.getElementsByTagName('button')[0];
-    //div.style.color = 'blue';
-    
-    /*const div = document.getElementById('perfil');
-    
-    div.style.backgroundColor = 'white'; */
+
     const collection = document.getElementsByClassName("info");
     collection[0].style.backgroundColor = "red";
     collection[1].style.backgroundColor = "red";
@@ -65,13 +53,7 @@ function select_config(){
 }
 
 function select_change(){
-    // referencia o primeiro 'h1' do layout html
-    //const div = document.getElementsByTagName('button')[0];
-    //div.style.color = 'blue';
-    
-    /*const div = document.getElementById('perfil');
-    
-    div.style.backgroundColor = 'white'; */
+
     const collection = document.getElementsByClassName("info");
     collection[0].style.backgroundColor = "red";
     collection[1].style.backgroundColor = "red";

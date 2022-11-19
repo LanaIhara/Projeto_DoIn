@@ -87,38 +87,39 @@
 }
 
 .ur_bro {
-    height: 350px;
-    background-color: yellow;
-    width: 100%;
-
-    display: inline;
-}
-
-.ur_mom {
     height: 300px;
-
-    width: 60%;
-    background-color: aqua;
-
-    border-radius: 20px;
+    background-color: black;
+    width: calc(100% - 40px);
 
     margin-top: 10px;
     margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+}
+
+.ur_mom {
+    height: 100%;
+
+    width: calc(60% - 30px);
+    background-color: aqua;
+
+    margin-right: 30px;
+    border-radius: 20px;
+
+    flex: left;
 }
 
 .yellow {
     background-color: gray;
-    height: 300px;
+    height: 100%;
 
-    width: 40%;
+    width: 10%;
 
     border-radius: 20px;
 
-    margin-top: 10px;
-    /*margin-left: 300px;*/
-    margin-right: 10px;
-
     font-size: 30px;
+
+    flex: right;
 }
 
 #product {
