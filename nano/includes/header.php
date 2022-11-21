@@ -6,7 +6,7 @@
     <a href="index.php" class="div_logo"><img class="img_logo" src="img/header/doin_logotype.png"></a>
 
     <!-- PÁGINAS DO SITE -->
-    <div class="dropdown">
+    <div class="dropdown" id="pags_site">
 
         <!-- Botão em <div> -->
         <div class="button_hover">
@@ -27,6 +27,7 @@
             <a href="#">Ranking dos doadores</a> <!-- ou Top usuários do site -->
             <a href="perfil_usuario.php">Perfil do usuário</a>
             <a href="teste.php">Teste</a>
+            <a href="includes/teste.php">Teste (include)</a>
             <a href="index.php">Página inicial</a>
         </div>
     </div>
@@ -76,8 +77,8 @@
         
         <!-- Botões de login e cadastrar-se-->
         <!-- Colocar uma condição de aparecer os botões se o usuário estiver deslogado -->
-        <a href="#" class="a_button"><div class="button espac_log">Cadastre-se</div></a>
-        <a href="#" class="a_button"><div class="button">Login</div></a>
+        <a href="#" class="a_button"><div class="button espac_log" id="cadastro">Cadastre-se</div></a>
+        <a href="#" class="a_button"><div class="button" id="login">Login</div></a>
     </div>
 
 </header>

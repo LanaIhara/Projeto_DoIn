@@ -6,7 +6,7 @@
 
     <link rel="stylesheet" type="text/css" href="css/zero_page.css"/> <!-- refere-se ao css que zera os espaçamentos vindos por definição -->
     <link rel="stylesheet" type="text/css" href="css/header.css" /> <!-- refere-se ao css do cabeçalho -->
-    <link rel="stylesheet" type="text/css" href="css/perfil_usuario.css" /> <!-- refere-se ao css deste documento -->
+    <link rel="stylesheet" type="text/css" href="css/teste.css" /> <!-- refere-se ao css deste documento -->
 
     <link rel="icon" type="image/png" href="img/favicon.png" /> <!-- refere-se ao favicon.png -->
 </head>
@@ -24,9 +24,7 @@
             <div class="sinonimo">
 
                 <div class="antonimo" id="inicial">
-                    <div class="yellow">
-                        SELECIONE UMA CAIXA
-                    </div>
+                    SELECIONE UMA CAIXA
                 </div>
 
                 <!-- PERFIL do usuário -->
@@ -39,24 +37,23 @@
 
                 <div class="antonimo" id="product">
                     <div class="yellow">
-                        <p class="name">deu trabalho</p>
+                        <p class="name">a</p>
                     </div>
                 </div>
 
                 <div class="antonimo" id="config">
                     <div class="yellow">
-                        <p class="name">e foi sofrido.</p>
+                        <p class="name">b</p>
                     </div>
                 </div>
 
                 <div class="antonimo" id="change_perfil">
                     <div class="yellow">
-                        <p class="name">Gostou?</p>
+                        <p class="name">c</p>
                     </div>
                 </div>
 
                 <div class="teste">
-                    <!--<input type="checkbox" name="" id="per1">-->
                     
                     <button class="info" id="button_perfil" onclick="select_perfil()">Perfil</button>
 
