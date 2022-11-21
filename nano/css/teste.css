@@ -3,7 +3,7 @@
 
 
 .primeiro {
-    background-color: red;
+    background-color: black;
     height: 510px;
     width: 100%;
 
@@ -21,15 +21,16 @@
     margin: 20px 30px 20px 30px;
     position: absolute;
 
-    background-color: yellow;
+    background: url(../img/user_perfil//paisage_back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 
     border-radius: 20px;
 }
 
 .teste {
     margin-top: 35px;
-    margin-left: 120px;
-    background-color: blue;
+    margin-left: 150px;
     height: 350px;
     width: 30%;
 
@@ -54,6 +55,11 @@
     font-size: 25px;
 
     padding-left: 15px;
+
+    border-width: medium;
+    border-style: solid;
+    border-color: black;
+    /* Fonte: https://www.maujor.com/tutorial/propriedades-css-para-estilizacao-de-bordas.php */
 }
 
 .antonimo {
@@ -62,10 +68,16 @@
     width: 50%;
     float: right;
 
+    border-width: medium;
+    border-style: solid;
+    border-color: black;
+
+    position: relative;
+    z-index: 2;
     /* Fonte: https://pt.stackoverflow.com/questions/178699/centralizar-um-div-com-texto-e-position-absolute-no-centro-da-div-pai */
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-right: 150px;
+    margin-right: 200px;
 
     border-radius: 20px;
 }
@@ -87,31 +99,33 @@
 }
 
 .ur_bro {
-    height: 300px;
-    background-color: black;
-    width: calc(100% - 40px);
+    height: calc(55% - 20px);
+    width: calc(100% - 20px);
 
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: 20px;
-    margin-right: 20px;
     position: relative;
 }
 
 .ur_mom {
     height: 100%;
 
-    width: 60%;
+    width: calc(60% - 20px);
     background-color: aqua;
+    border-radius: 20px;
+    display: inline-block;
 
-    /*margin-right: 30px
-    border-radius: 20px;*/
+    /* Fonte: https://www.clubedohardware.com.br/forums/topic/1520836-como-colocar-divs-uma-ao-lado-da-outra-html-e-css-js/ */
 }
 
 .yellow {
     background-color: gray;
     height: 100%;
 
-    width: 10%;
+    width: 39%;
+
+    display: inline-block;
+    margin-right: 10px;
 
     border-radius: 20px;
 }

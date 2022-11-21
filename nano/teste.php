@@ -24,34 +24,32 @@
             <div class="sinonimo">
 
                 <div class="antonimo" id="inicial">
-                    <div class="yellow">
-                        SELECIONE UMA CAIXA
-                    </div>
+                    SELECIONE UMA CAIXA
                 </div>
 
                 <!-- PERFIL do usuário -->
                 <div class="antonimo" id="perfil">
                     <div class="ur_bro">
-                        <div class="yellow"></div>
                         <div class="ur_mom"></div>
+                        <div class="yellow"></div>
                     </div>
                 </div>
 
                 <div class="antonimo" id="product">
                     <div class="yellow">
-                        <p class="name">deu trabalho</p>
+                        <p class="name">a</p>
                     </div>
                 </div>
 
                 <div class="antonimo" id="config">
                     <div class="yellow">
-                        <p class="name">e foi sofrido.</p>
+                        <p class="name">b</p>
                     </div>
                 </div>
 
                 <div class="antonimo" id="change_perfil">
                     <div class="yellow">
-                        <p class="name">Gostou?</p>
+                        <p class="name">c</p>
                     </div>
                 </div>
 

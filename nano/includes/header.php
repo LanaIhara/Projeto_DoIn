@@ -3,7 +3,7 @@
 
     <!-- Logotipo do site DoIn (img) -->
     <!-- Ao clicar, redireciona à página principal -->
-    <a href="index.php" class="div_logo"><img class="img_logo" src="img/doin_logotype.png"></a>
+    <a href="index.php" class="div_logo"><img class="img_logo" src="img/header/doin_logotype.png"></a>
 
     <!-- PÁGINAS DO SITE -->
     <div class="dropdown">
@@ -15,7 +15,7 @@
             Páginas do site
                 
             <!-- Símbolo da lupa de pesquisa (img) -->
-            <img class="img_symbol" src="img/search.png">
+            <img class="img_symbol" src="img/header/search.png">
         </div>
         
         <!-- Conteúdo "dropdown" (aparecerá ao passar a seta do mouse na <div> "dropdown") -->
@@ -43,7 +43,7 @@
             Menu de navegação
                 
             <!-- Símbolo do menu de três riscos (img) -->
-            <img class="img_symbol" src="img/menu.png">
+            <img class="img_symbol" src="img/header/menu.png">
         </div>
 
         <!-- Conteúdo "dropdown" (aparecerá ao passar a seta do mouse na <div> "dropdown") -->
@@ -65,7 +65,7 @@
         <div class="home_contact">
             <a href="index.php" class="a_button"><div class="purple_button button">
                 <!-- Símbolo da lupa de pesquisa -->
-                <img class="img_symbol img_home" src="img/home.png">
+                <img class="img_symbol img_home" src="img/header/home.png">
             </div></a>
 
             <a href="#" class="a_button"><div class="purple_button button espac_contact">
