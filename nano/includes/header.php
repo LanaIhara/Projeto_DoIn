@@ -41,7 +41,7 @@
         <div class="button_hover">
 
             <!-- Título -->
-            Menu de navegação
+            Menu
                 
             <!-- Símbolo do menu de três riscos (img) -->
             <img class="img_symbol" src="img/header/menu.png">

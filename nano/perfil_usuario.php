@@ -6,7 +6,7 @@
 
     <link rel="stylesheet" type="text/css" href="css/zero_page.css"/> <!-- refere-se ao css que zera os espaçamentos vindos por definição -->
     <link rel="stylesheet" type="text/css" href="css/header.css" /> <!-- refere-se ao css do cabeçalho -->
-    <link rel="stylesheet" type="text/css" href="css/teste.css" /> <!-- refere-se ao css deste documento -->
+    <link rel="stylesheet" type="text/css" href="css/perfil_usuario.css" /> <!-- refere-se ao css deste documento -->
 
     <link rel="icon" type="image/png" href="img/favicon.png" /> <!-- refere-se ao favicon.png -->
 </head>
