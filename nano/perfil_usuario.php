@@ -43,7 +43,7 @@
 
                 <div class="antonimo" id="config">
                     <div class="yellow">
-                        <p class="name">b</p>
+                        <button id="toggle">toggle</button>
                     </div>
                 </div>
 
@@ -65,5 +65,6 @@
                 </div>
             </div>
         </div>
+        <script src="js/script.js"></script>
     </body>
 </html>

@@ -1,9 +1,18 @@
 /* CSS referente à página "perfil_usuario.php" */
 /* https://celke.com.br/artigo/como-criar-pop-up-com-javascript#:~:text=Para%20criar%20o%20pop%2Dup,pop%2Dup%20na%20p%C3%A1gina%20HTML.*/
 
+body {
+    --color-white: #ffffff;
+    --color-blueviolet: #947FE6;
+}
+
+.dark {
+    --color-white: #142136;
+    --color-blueviolet: #794C18;
+}
 
 .primeiro {
-    background-color: black;
+    background-color: var(--color-white);
     height: 510px;
     width: 100%;
 
@@ -64,7 +73,7 @@
 
 .antonimo {
     height: calc(100% - 40px);
-    background-color: blueviolet;
+    background-color: var(--color-blueviolet);
     width: 50%;
     float: right;
 
