@@ -62,7 +62,7 @@ However, i can resolve this problem with "Hard Reload" (shortcut for windows) or
     position: absolute;
 
     /* Largura da <div> */
-    width: 225px;
+    width: 250px;
     overflow: auto;
 
     /* Sombra da <div>, formando uma "caixa" */
@@ -259,10 +259,20 @@ However, i can resolve this problem with "Hard Reload" (shortcut for windows) or
     .div_right {
         margin-top: 45px;
     }
+
+    #pag_content {
+        width: 180px;
+    }
+}
+
+@media (max-width: 950px) {
+    .header {
+        height: 275px;
+    }
 }
 
 @media (max-width: 750px) {
-    
+
     .header {
         height: 280px;
     }
@@ -277,6 +287,20 @@ However, i can resolve this problem with "Hard Reload" (shortcut for windows) or
 
     .img_logo {
         width: 70%;
+    }
+
+    #pag_content {
+        width: 150px;
+    }
+
+    .dropdown-content {
+        width: 200px;
+    }
+}
+
+@media (max-width: 600px) {
+    .header {
+        height: 250px;
     }
 }
 
