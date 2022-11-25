@@ -22,8 +22,8 @@
 	<body>
 
         <!-- Introdução da logo DoIn (em formato de gif) ao abrir o index do site -->
-        <div id="introduction" class="preload"></div>
-        <script type="text/javascript" src="js/main_script.js"></script> <!-- refere-se ao arquivo main_script.js -->
+        <!--<div id="introduction" class="preload"></div>-->
+        <!--<script type="text/javascript" src="js/main_script.js"></script> refere-se ao arquivo main_script.js -->
 
 		<!-- Cabeçalho -->
 		<?php
