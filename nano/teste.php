@@ -87,36 +87,23 @@
                     <label>Esporte</label>
                 </div>
 
-                <!-- 1: Beleza -->
+                <!-- 10: Eletrônicos -->
                 <div class="div_category">
                     <img src="img/pink.jpg" class="img_category">
-                    <label>Beleza</label>
+                    <label>Eletrônicos</label>
                 </div>
 
-                <!-- 1: Beleza -->
+                <!-- 11: Pet (Animais) -->
                 <div class="div_category">
                     <img src="img/pink.jpg" class="img_category">
-                    <label>Beleza</label>
+                    <label>Pet (Animais)</label>
                 </div>
 
-                <!-- 1: Beleza -->
+                <!-- 12: Pet (Produtos) -->
                 <div class="div_category">
                     <img src="img/pink.jpg" class="img_category">
-                    <label>Beleza</label>
+                    <label>Pet (Produtos)</label>
                 </div>
-
-                <!-- 1: Beleza -->
-                <div class="div_category">
-                    <img src="img/pink.jpg" class="img_category">
-                    <label>Beleza</label>
-                </div>
-
-                <!-- 1: Beleza -->
-                <div class="div_category">
-                    <img src="img/pink.jpg" class="img_category">
-                    <label>Beleza</label>
-                </div>
-
             </div>
         </section>
     

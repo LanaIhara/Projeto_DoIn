@@ -1,0 +1,41 @@
+/*  class -> . 
+    id=   -> # */
+
+.carrossel_category {
+    height: 130px; /*15vh*/
+    width: 100%; /*98.95vw;*/
+    background-color: gray;
+    position: absolute; /* para margin top de up funcionar */
+    display: flex;
+
+    /* Fonte: https://pt.stackoverflow.com/questions/440679/colocar-elementos-lado-a-lado-usando-html-e-css */
+}
+
+.div_category {
+    margin-top: 20px;
+    margin-left: 0.75%;
+    height: 90px;
+    width: 7.5%;
+    background-color: yellow;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.img_category {
+    height: 65px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+/* Cell Lana: 1089 x 2160 */
+@media (max-width: 1100px) {
+}
+
+/* PC Lana: 1366 x 768 */
+@media (max-width: 1300px) {
+}
+
+/* PC Escola: 1600 x 900 (width x height) */
+@media (max-width: 1900px) {
+}

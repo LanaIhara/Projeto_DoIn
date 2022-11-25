@@ -35,19 +35,20 @@ section {
     width: 100%; /*98.95vw;*/
     background-color: gray;
     position: absolute; /* para margin top de up funcionar */
-    /*display: flex;*/
+    display: flex;
 
     /* Fonte: https://pt.stackoverflow.com/questions/440679/colocar-elementos-lado-a-lado-usando-html-e-css */
 }
 
 .div_category {
     margin-top: 20px;
-    margin-left: 15px;
+    margin-left: 0.75%;
     height: 90px;
-    width: 8%;
+    width: 7.5%;
     background-color: yellow;
     border-radius: 20px;
     text-align: center;
+    font-size: 12px;
 }
 
 .img_category {

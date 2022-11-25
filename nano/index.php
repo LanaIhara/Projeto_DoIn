@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="css/zero_page.css"/> <!-- refere-se ao css que zera os espaçamentos vindos por definição -->
     <link rel="stylesheet" type="text/css" href="css/style.css" /> <!-- refere-se ao main_style.css -->
     <link rel="stylesheet" type="text/css" href="css/header.css" /> <!-- refere-se ao css do cabeçalho -->
+    <link rel="stylesheet" type="text/css" href="css/category.css" /> <!-- refere-se ao css da categoria -->
 
     <script type="text/javascript" src="js/jquery-3.6.1.min.js"></script> <!-- refere-se ao jQuery responsável por rodar o gif introdutório -->
     <link rel="icon" type="image/png" href="img/favicon.png" /> <!-- refere-se ao favicon.png -->
@@ -34,103 +35,9 @@
         <section>
 
             <!-- Container com as categorias (carrossel no celular) -->
-            <div class="categoria">
-                <!-- 1 -->
-                <div class="up">
-                    <div class="h">
-                        <img src="img/pink.jpg" class="h">
-                    </div>
-                    <label class="blue">tExto</label>
-                </div>
-
-                <!-- 2 -->
-                <div class="up">
-                    <div class="h">
-                        <img src="img/pink.jpg" class="h">
-                    </div>
-                    <label class="blue">tExto</label>
-                </div>
-
-                <!-- 3 -->
-                <div class="up">
-                    <div class="h">
-                        <img src="img/pink.jpg" class="h">
-                    </div>
-                    <label class="blue">tExto</label>
-                </div>
-
-                <!-- 4 -->
-                <div class="up">
-                    <div class="h">
-                        <img src="img/pink.jpg" class="h">
-                    </div>
-                    <label class="blue">tExto</label>
-                </div>
-
-                <!-- 5 -->
-                <div class="up">
-                    <div class="h">
-                        <img src="img/pink.jpg" class="h">
-                    </div>
-                    <label class="blue">tExto</label>
-                </div>
-
-                <!-- 6 -->
-                <div class="up">
-                    <div class="h">
-                        <img src="img/pink.jpg" class="h">
-                    </div>
-                    <label class="blue">tExto</label>
-                </div>
-
-                <!-- 7 -->
-                <div class="up">
-                    <div class="h">
-                        <img src="img/pink.jpg" class="h">
-                    </div>
-                    <label class="blue">tExto</label>
-                </div>
-
-                <!-- 8 -->
-                <div class="up">
-                    <div class="h">
-                        <img src="img/pink.jpg" class="h">
-                    </div>
-                    <label class="blue">tExto</label>
-                </div>
-
-                <!-- 9 -->
-                <div class="up">
-                    <div class="h">
-                        <img src="img/pink.jpg" class="h">
-                    </div>
-                    <label class="blue">tExto</label>
-                </div>
-
-                <!-- 10 -->
-                <div class="up">
-                    <div class="h">
-                        <img src="img/pink.jpg" class="h">
-                    </div>
-                    <label class="blue">tExto</label>
-                </div>
-
-                <!-- 11 -->
-                <div class="up">
-                    <div class="h">
-                        <img src="img/pink.jpg" class="h">
-                    </div>
-                    <label class="blue">tExto</label>
-                </div>
-
-                <!-- 12 -->
-                <div class="up">
-                    <div class="h">
-                        <img src="img/pink.jpg" class="h">
-                    </div>
-                    <label class="blue">tExto</label>
-                </div>
-            </div>
+            <?php
+                include 'includes/category.php';
+            ?>
 
             <!-- Importância da Troca e doação -->
             <div class="main">
