@@ -5,7 +5,7 @@
 	<title>Página principal | DoIn</title> <!-- Título do site -->
 
     <link rel="stylesheet" type="text/css" href="css/zero_page.css"/> <!-- refere-se ao css que zera os espaçamentos vindos por definição -->
-    <link rel="stylesheet" type="text/css" href="css/style.css" /> <!-- refere-se ao main_style.css -->
+    <link rel="stylesheet" type="text/css" href="css/index.css" /> <!-- refere-se ao index.css -->
     <link rel="stylesheet" type="text/css" href="css/header.css" /> <!-- refere-se ao css do cabeçalho -->
     <link rel="stylesheet" type="text/css" href="css/category.css" /> <!-- refere-se ao css da categoria -->
 
@@ -40,18 +40,17 @@
             ?>
 
             <!-- Importância da Troca e doação -->
-            <div class="main">
-                <!-- Imagem e informações sobre "Importância da Troca e Doação" -->
-                <div class="slogan">
-
-                    <!-- Imagem sobre doação -->
-                    <img id="img_doador" src="img/doacao.png">
-
-                    <!-- Imagem sobre troca -->
-                    <img id="img_donatário" src="img/pink.jpg">
-
-                    <!-- Container sobre o "OU" -->
-                    <div id="circulo"></div>
+            <div class="div_presentation">
+                <img class="img_presentation" src="img/light_presentation.png">
+                
+                <div class="div_text_pres">
+                    <h1>Projeto DoIn</h1>
+                    <p>Site desenvolvido por estudantes do ensino médio com o objetivo de incentivar a 
+                    redução do consumismo e preservação do meio ambiente através da doação e troca de 
+                    produtos na sociedade brasileira, facilitando o anúncio desses tipos de câmbio por 
+                    meio deste site.</p>
+                    <p>Se junte a nossa causa</p>
+                    <a href="#" class="a_button"><div class="button_presentation">Doe ou troque produtos agora</div></a>
                 </div>
             </div>
 
@@ -68,8 +67,7 @@
             <!-- <div> -->
             <div></div>
         </footer>
-    
-    <!-- file:///F:/Projeto%20DoIn%20-%20Troca%20e%20Doa%C3%A7%C3%A3o%20de%20Produtos/Website/Nano_DoIn/index.html-->
+
     <!-- localhost/Projeto_Doin/nano -->
     
 	</body>

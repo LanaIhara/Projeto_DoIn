@@ -10,9 +10,46 @@ section {
     background-color: black;
 }
 
-.main {
+.div_presentation {
+    height: 700px;
+    top: 130px;
     position: relative;
-    padding-top: 30.5vh; /*15.5vh;*/
+    background-color: #C9E265;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 350px;
+}
+    
+.img_presentation {
+    height: 350px;
+}
+    
+.div_text_pres {
+    /*background-color: yellow;*/
+    width: calc(45% - 30px);
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: 20px;
+    height: 100%;
+}
+    
+p {
+    font-size: larger;
+    text-indent: 3em;
+    text-align: justify;
+    margin-top: 10px;
+}
+    
+.button_presentation {
+    background-color: blueviolet;
+    width: 265px;
+    font-size: larger;
+    margin-left: 3em;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 10px;
 }
 
 /* Introdução de um gif (logo do DoIn) ao abrir o index do site */
@@ -48,45 +85,6 @@ section {
                 Código estudado e implementado: http://jsfiddle.net/SamirChaves/6ns0grm0/2/
                 Videoaula sobre position e z-index: https://pt.khanacademy.org/computing/computer-programming/html-css/css-layout-properties/pt/css-position */
 }
-
-/* Duas imagens sobre "Importância da Troca e Doação" (elemento <div>) */
-.slogan {
-    
-    /* Posição dos elementos no site; quebra o padrão de posição estabelecido por cada elemento do html
-        Relative: a <div> class="container" não possuirá a posição padrão imposto pelo site,
-        portanto, não desarrumando a identação/visual ao diminuir o tamanho da tela.
-        Além disso, NÃO IRÁ SOBREPOR elementos, fazendo com que um fique debaixo/após do outro. */
-    position: relative;
-    
-    /* Alinha os elementos de imagem no centro verticalmente (para isso, o display: flex) 
-    Fonte: https://www.freecodecamp.org/portuguese/news/como-centralizar-uma-imagem-na-vertical-e-na-horizontal-com-css/#:~:text=Outra%20forma%20de%20centralizar%20uma,que%20voc%C3%AA%20tamb%C3%A9m%20precisar%C3%A1%20usar. */
-    display: flex;
-    justify-content: center;
-
-    /*Altura da <div> class="slogan" */
-    height: 65vh;
-
-    /* Imagem de fundo (sem repetição) */
-    background-color: blue;
-
-    width: 98.95vw;
-}
-
-/*.slogan img {
-    position: absolute;
-    height: 42.25vh;
-    z-index: 1;
-}
-
-#img {
-    right: 1vw;
-}
-.slogan img {
-    height: 65vh;
-    width: 45vw;
-}*/
-
-/* Fonte: https://pt.stackoverflow.com/questions/106102/como-posicionar-texto-dentro-de-uma-imagem#:~:text=3%20Respostas&text=Primeiro%20voc%C3%AA%20deve%20colocar%20ambos,%2C%20bottom%20e%2Fou%20left%20. */
 
 .curiosidades {
     height: 30vh;

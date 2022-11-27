@@ -3,7 +3,7 @@ localStorage.setItem('theme', 'dark');
 //acessado o tema da maquina do usuário
 localStorage.getItem('theme'); 
 
-const toggle = document.getElementById("toggle");
+const toggle = document.getElementById("myCheckBox"); //toggle
 const theme = window.localStorage.getItem("theme");
 
 /* verifica se o tema armazenado no localStorage é escuro

@@ -1,74 +1,53 @@
 /* Refere-se ao css do index */
 
-/* Todos os elementos (*) */
-* {
-    /*  -> Margin / Margem - Espaçamento fora do conteúdo.
-        -> Padding / Preenchimento - Espaçamento dentro dos limites do conteúdo.
-
-        Hierarquia (de fora até chegar ao conteúdo):
-            Margin Box
-            Border Box
-            Padding Box
-            Element Box ( O elemento em si, div, span, entre outros )
-        https://pt.stackoverflow.com/questions/189978/qual-a-diferen%C3%A7a-entre-padding-e-margin-no-css 
-       
-    Retirada de todos os espaçamentos dos elementos, ou seja, para realizar uma customização deles. */
-    padding: 0;
-    margin: 0;
-    border: 0;
-
-    font-family: 'Segoe UI';
-}
-
 /*  class -> . 
     id=   -> # */
 
 section {
     position: relative; /*para top funcionar */
     top: 115px;
-    height: 500px;
+    height: 1300px;
     background-color: black;
 }
 
-.carrossel_category {
-    height: 130px; /*15vh*/
-    width: 100%; /*98.95vw;*/
-    background-color: gray;
-    position: absolute; /* para margin top de up funcionar */
+.div_presentation {
+    height: 700px;
+    top: 130px;
+    position: relative;
+    background-color: blue;
     display: flex;
-
-    /* Fonte: https://pt.stackoverflow.com/questions/440679/colocar-elementos-lado-a-lado-usando-html-e-css */
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 350px;
 }
 
-.div_category {
-    margin-top: 20px;
-    margin-left: 0.75%;
-    height: 90px;
-    width: 7.5%;
+.img_presentation {
+    height: 350px;
+}
+
+.div_text_pres {
     background-color: yellow;
-    border-radius: 20px;
-    text-align: center;
-    font-size: 12px;
+    width: calc(45% - 30px);
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: 20px;
+    height: 100%;
 }
 
-.img_category {
-    height: 65px;
-    width: 100%;
-    border-radius: 20px;
+p {
+    font-size: larger;
+    text-indent: 3em;
+    text-align: justify;
+    margin-top: 10px;
 }
 
-/* Cell Lana: 1089 x 2160 */
-@media (max-width: 1100px) {
+.button_presentation {
+    background-color: blueviolet;
+    width: 265px;
+    font-size: larger;
+    margin-left: 3em;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 10px;
 }
-
-/* PC Lana: 1366 x 768 */
-@media (max-width: 1300px) {
-}
-
-/* PC Escola: 1600 x 900 (width x height) */
-@media (max-width: 1900px) {
-}
-
-/* Coisas talvez uteis:
-https://www.hostinger.com.br/tutoriais/criar-site-responsivo-css
-https://www.maujor.com/tutorial/propriedades-css-para-estilizacao-de-listas.php */

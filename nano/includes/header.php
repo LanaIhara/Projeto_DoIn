@@ -4,7 +4,7 @@
     <!-- Logotipo do site DoIn (img) -->
     <!-- Ao clicar, redireciona à página principal -->
     <a href="index.php" class="div_logo"><img class="img_logo" src="img/header/doin_logotype.png"></a>
-
+    
     <!-- PÁGINAS DO SITE -->
     <div class="dropdown" id="pags_site">
 
