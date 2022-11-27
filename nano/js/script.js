@@ -15,7 +15,8 @@ toggle.addEventListener("click", () => {
     document.body.classList.toggle("dark");
     if (theme === "dark") {
         window.localStorage.setItem("theme", "light");
-    } else window.localStorage.setItem("theme", "dark");
+        localStorage.currentTheme = "light";
+    } else window.localStorage.setItem("theme", "dark"); localStorage.currentTheme = "dark";
 });
 
 /*https://dev.to/rubalaine/dark-mode-apenas-com-html-css-e-javascript-3n57 

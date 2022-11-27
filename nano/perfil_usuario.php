@@ -42,9 +42,13 @@
                 </div>
 
                 <div class="antonimo" id="config">
-                    <div class="yellow">
+                    <!--<div class="yellow">
                         <button id="toggle">toggle</button>
-                    </div>
+                    </div>-->
+                    <label class="switch">
+                        <input type="checkbox" id="myCheckBox">
+                        <span class="slider round"></span>
+                    </label>
                 </div>
 
                 <div class="antonimo" id="change_perfil">
@@ -65,6 +69,7 @@
                 </div>
             </div>
         </div>
-        <script src="js/script.js"></script>
+        <!--<script src="js/script.js"></script>-->
+        <script src="js/teste.js"></script>
     </body>
 </html>

@@ -11,6 +11,14 @@ However, i can resolve this problem with "Hard Reload" (shortcut for windows) or
 -> Layout para celular em max-width = 1100px (baseado no celular da Lana)
 */
 
+body {
+    --color-yes: #FFC470;
+}
+
+.dark {
+    --color-yes: black;
+}
+
 /* Classe do <header> */
 .header {
 
@@ -22,7 +30,7 @@ However, i can resolve this problem with "Hard Reload" (shortcut for windows) or
 
     position: fixed; /* ou absolute */
     z-index: 5; /* permite com que o dropdown aconteça */
-    background-color: #FFC470; /* #FFBF65 -> mais escuro */
+    background-color: var(--color-yes); /*#FFC470; /* #FFBF65 -> mais escuro */
 }
 
 .button_hover {
