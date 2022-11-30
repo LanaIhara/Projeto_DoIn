@@ -49,6 +49,8 @@
                     <a href="#" class="a_button"><div class="button_presentation">Doe ou troque produtos agora</div></a>
                 </div>
             </div>
+
+            <div class="div_about_site"></div>
         </section>
 	</body>
 </html>
