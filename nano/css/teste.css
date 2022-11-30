@@ -14,7 +14,7 @@ section {
     /*height: 350px;*/
     top: 130px;
     position: relative;
-    background-color: blue;
+    background-color: #68A7F1;
     display: flex;
     justify-content: center;
     padding-top: 30px;
@@ -61,7 +61,7 @@ p {
 
 .div_about_site {
     top: 130px;
-    height: 325px;
+    height: 375px; /*325*/
     position: relative;
     background-color: yellowgreen;
     padding-left: 1.25%;
@@ -105,4 +105,8 @@ p {
     margin-right: auto;
     text-align: center;
     margin-top: 10px;
+}
+
+.div_important {
+    background-color: blue;
 }
