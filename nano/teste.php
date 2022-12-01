@@ -52,12 +52,8 @@
             <div class="div_about_site">
                 <div class="button_presentation button_benef">Benefícios do site</div>
                 <div class="div_benef_carrossel">
-
-                    <div class="div_benef_icons dropdown">
-                        <img src="img/pink.jpg" class="img_icons">
-                        <div class="p_icons">Sempre tendo pessoas disponíveis para troca e doação em nosso site</div>
-
-                        <div class="dropdown-content">
+                    <div class="div_benef_icons dropdown content_test">
+                        <div class="dropdown-content test">
 
                             <!-- Tópicos do "menu de navegação" -->
                             <!-- Redirecionará ao respectivo item linkado -->
@@ -66,7 +62,8 @@
                             <a href="#">Vantagens</a>
                             <a href="#">YouTube</a>
                         </div>
-                    
+                        <img src="img/pink.jpg" class="img_icons">
+                        <div class="p_icons">Sempre tendo pessoas disponíveis para troca e doação em nosso site</div>                    
                     </div>
                     <div class="div_benef_icons">
                         <img src="img/pink.jpg" class="img_icons">

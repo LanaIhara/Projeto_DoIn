@@ -110,3 +110,12 @@ p {
 .div_important {
     background-color: blue;
 }
+
+.content_test {
+    margin-left: 0 !important;
+}
+
+.test {
+    margin-top: -100px;
+    position: absolute;
+}
