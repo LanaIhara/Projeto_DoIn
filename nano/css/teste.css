@@ -61,7 +61,7 @@ p {
 
 .div_about_site {
     top: 130px;
-    height: 375px; /*325*/
+    height: 400px; /*325*/ /*375*/
     position: relative;
     background-color: yellowgreen;
     padding-left: 1.25%;
@@ -73,7 +73,7 @@ p {
 .div_benef_carrossel {
     width: 100%;
     margin-top: 15px;
-    height: 230px;
+    height: 250px; /*230*/
     background-color: aqua;
     display: flex;
 }
