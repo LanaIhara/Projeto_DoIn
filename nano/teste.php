@@ -37,7 +37,7 @@
 
             <!-- Importância da Troca e doação -->
             <div class="div_presentation">
-                <img class="img_presentation" src="img/light_presentation.png">
+                <img class="img_presentation" src="img/presentation.png">
                 
                 <div class="div_text_pres">
                     <h1>Projeto DoIn</h1>
@@ -62,7 +62,7 @@
                             <a href="#">Vantagens</a>
                             <a href="#">YouTube</a>
                         </div>
-                        <img src="img/pink.jpg" class="img_icons">
+                        <img src="img/doacao_alimento.png" class="img_icons">
                         <div class="p_icons">Sempre tendo pessoas disponíveis para troca e doação em nosso site</div>                    
                     </div>
                     <div class="div_benef_icons">

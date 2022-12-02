@@ -4,7 +4,7 @@
 .carrossel_category {
     height: 130px; /*15vh*/
     width: 100%; /*98.95vw;*/
-    background-color: #322108;
+    background-color: #5D3701;
     position: absolute; /* para margin top de up funcionar */
     display: flex;
 
@@ -16,7 +16,7 @@
     margin-left: 0.75%;
     height: 90px;
     width: 7.5%;
-    background-color: #FF7DBB;
+    background-color: #FCFAEC;
     border-radius: 20px;
     text-align: center;
     font-size: 12px;
@@ -24,7 +24,7 @@
 
 .img_category {
     height: 65px;
-    width: 100%;
+    /*width: 100%;*/
     border-radius: 20px;
 }
 

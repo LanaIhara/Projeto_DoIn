@@ -3,13 +3,13 @@
                 
     <!-- 1: Beleza -->
     <div class="div_category">
-        <img src="img/pink.jpg" class="img_category">
+        <img src="img/category/beleza.png" class="img_category">
         <label>Beleza</label>
     </div>
 
     <!-- 2: Saúde -->
     <div class="div_category">
-        <img src="img/pink.jpg" class="img_category">
+        <img src="img/category/saude.png" class="img_category">
         <label>Saúde</label>
     </div>
 
