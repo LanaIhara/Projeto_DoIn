@@ -12,6 +12,7 @@
     <script type="text/javascript" src="js/jquery-3.6.1.min.js"></script> <!-- refere-se ao jQuery responsável por rodar o gif introdutório -->
     <link rel="icon" type="image/png" href="img/favicon.png" /> <!-- refere-se ao favicon.png -->
     <!--<script type="text/javascript" src="js/scroll.js"></script> -->
+    <script type="text/javascript" src="js/category.js"></script>
 
     <link
     rel="stylesheet"

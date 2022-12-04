@@ -31,12 +31,128 @@ label {
     /*width: 100%;*/
 }
 
-/* Cell Lana: 1089 x 2160 */
-@media (max-width: 1100px) {
+#animation_2 {
+    margin-left: 49.5%;
+    background-color: unset !important;
 }
 
-/* PC Lana: 1366 x 768 */
+#animation_4 {
+    margin-left: 24.75%;
+    background-color: unset !important;
+}
+
+#animation_6 {
+    margin-left: 24.75%;
+    background-color: unset !important;
+}
+
+/*.img_set {
+    width: 100px;
+}*/
+
+#yeah {
+    background-color: #00FFF0;
+        border-radius: 12px;
+        border: none;
+        color: black;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        opacity: 0.6; 
+        z-index: 10;
+}
+
+/*.set_left {
+    margin-right: 1.5%;
+}
+
+.div_set {
+    height: 100%;
+    width: 100px;
+    background-color: black;
+}
+
+.set_right {
+    margin-left: 1.5%;
+}*/
+
 @media (max-width: 1300px) {
+    #animation_2 {
+        display: none;
+        margin-left: 10.25%;
+        margin-right: 10.25%;
+        /*justify-content: center;*/
+    }
+
+    #animation_1 {
+        background-color: unset !important;
+        margin-left: 10.25%;
+        margin-right: 10.25%;
+    }
+
+    #animation_3 {
+        background-color: unset !important;
+        /*display: flex !important;*/
+    }
+
+    #animation_4 {
+        margin-left: 39.75%;
+        /*display: flex !important;*/
+    }
+
+    #animation_5 {
+        background-color: unset !important;
+    }
+
+    #animation_6 {
+        margin-left: 39.75%;
+    }
+
+    .div_category {
+        width: 12.5%;
+    }
+}
+
+@media (max-width: 1100px) {
+    
+    .div_category {
+        width: 20%;
+        margin-left: 2%;
+    }
+
+    #animation_1 {
+        margin-left: 17%;
+        margin-right: 17%;
+    }
+
+    #animation_2 {
+        margin-left: 17%;
+        margin-right: 17%;
+    }
+
+    #animation_4 {
+        display: none;
+    }
+
+    #animation_5 {
+        display: none;
+    }
+
+    #animation_6 {
+        display: none;
+    }
+}
+
+@media (min-width: 1300px) {
+    #yeah {
+        display: none;
+    }
+
+    .carrossel_category {
+        display: flex !important;
+    }
 }
 
 /* PC Escola: 1600 x 900 (width x height) */
