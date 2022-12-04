@@ -237,7 +237,7 @@ body {
 /* Cell Lana: 1089 x 2160 */
 /* PC Lana: 1366 x 768 */
 /* PC Escola: 1600 x 900 (width x height) */
-@media (max-width: 1100px) { /*ou 700px */
+@media (max-width: 1300px) { /*ou 700px */
     
     .header {
         height: 250px;/*300px;*/
@@ -326,10 +326,7 @@ body {
     }
 }
 
-@media (max-width: 1400px) {
-}
-
-@media (min-width: 1100px) { /*ou 700px */
+@media (min-width: 1300px) { /*ou 700px */
     #menu {
         display: none;
     }

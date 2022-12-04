@@ -110,5 +110,13 @@
                 </div>
             </div>
         </section>
+
+        <section>
+            <div class="div_desenv">
+                Informações sobre os desenvolvedores
+            </div>
+        </section>
+
+        <footer></footer>
 	</body>
 </html>

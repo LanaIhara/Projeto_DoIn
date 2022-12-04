@@ -53,7 +53,7 @@
 
                 <!-- Tópicos do "menu de navegação" -->
                 <!-- Redirecionará ao respectivo item linkado -->
-                <a href="#sonic">Categorias</a>
+                <a href="#">Categorias</a>
                 <a href="#">Importância da Doação e Troca</a>
                 <a href="#">Vantagens</a>
                 <a href="#">YouTube</a>
