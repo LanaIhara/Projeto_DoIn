@@ -3,9 +3,10 @@
                 <!-- animate__animated animate__bounce -->
     
     
-    <button id="yeah" onclick="set_Left()">
+    <button id="yeah" class="set_button" onclick="set_Left()">
     <!--<img src="img/pink.jpg" class="img_set">-->
     </button>
+
     <div class="carrossel_category" id="animation_1">
 
         <div class="carrossel_category" id="animation_3">
@@ -98,4 +99,8 @@
             </div>
         </div>
     </div>
+
+    <button id="yeah_2" class="set_button" onclick="set_Left()">
+    <!--<img src="img/pink.jpg" class="img_set">-->
+    </button>
 </div>

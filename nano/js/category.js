@@ -4,6 +4,8 @@
 
 console.log(largura);*/
 
+
+
 //const yea = document.getElementById("yeah");
 
 /*function myFunction() {
@@ -11,6 +13,8 @@ console.log(largura);*/
     document.getElementById("animation_1").style.display = "none";
     document.getElementById("animation_2").style.display = "flex";
 }*/
+
+
 
 function set_Left() {
     
@@ -35,7 +39,10 @@ function set_Left() {
             if (window.getComputedStyle(cont_4).display === "none") {
                 //Portanto, o cont_3 == "flex" (precisa ir ao 5)
                 cont_6.style.display = "flex";
+                cont_2.style.display = "flex";
+                cont_5.style.display = "none";
                 cont_3.style.display = "none";
+                cont_1.style.display = "none";
             }
 
             else {
@@ -59,7 +66,10 @@ function set_Left() {
             if (window.getComputedStyle(cont_6).display === "none") {
                 //Portanto, o cont_5 == "flex" (precisa ir ao 4)
                 cont_4.style.display = "flex";
+                cont_1.style.display = "flex";
+                cont_3.style.display = "none";
                 cont_5.style.display = "none";
+                cont_2.style.display = "none";
             }
 
             else {
