@@ -14,6 +14,82 @@ console.log(largura);*/
     document.getElementById("animation_2").style.display = "flex";
 }*/
 
+let width;
+
+/*while (document.redyState === "complete");
+do {
+    width = screen.width;
+
+    cont_1 = document.getElementById("animation_1");
+    cont_2 = document.getElementById("animation_2");
+    cont_3 = document.getElementById("animation_3");
+    cont_4 = document.getElementById("animation_4");
+    cont_5 = document.getElementById("animation_5");
+    cont_6 = document.getElementById("animation_6");
+
+    if (width >= 1300) {
+        document.getElementsByClassName("carrossel_category");
+    }
+
+    else {
+        if (width >= 1100) {
+
+            if (window.getComputedStyle(cont_2).display === "none") {
+                cont_1.style.display = "flex";
+                cont_3.style.display = "flex";
+                cont_4.style.display = "flex";
+                cont_2.style.display = "none";
+                cont_5.style.display = "none";
+                cont_6.style.display = "none";
+            }
+
+            else {
+                cont_2.style.display = "flex";
+                cont_5.style.display = "flex";
+                cont_6.style.display = "flex";
+                cont_1.style.display = "none";
+                cont_3.style.display = "none";
+                cont_4.style.display = "none";
+            }
+        }
+
+        else {
+
+            if (window.getComputedStyle(cont_2).display === "none") {
+                cont_1.style.display = "flex";
+
+                cont_2.style.display = "none";
+                cont_5.style.display = "none";
+                cont_6.style.display = "none";
+                
+                if (window.getComputedStyle(cont_3).display === "none") {
+                    cont_4.style.display = "flex";
+                }
+
+                else {
+                    cont_3.style.display = "flex";
+                }
+            }
+
+            else {
+                cont_2.style.display = "flex";
+
+                cont_1.style.display = "none";
+                cont_3.style.display = "none";
+                cont_4.style.display = "none";
+                
+                if (window.getComputedStyle(cont_5).display === "none") {
+                    cont_6.style.display = "flex";
+                }
+
+                else {
+                    cont_5.style.display = "flex";
+                }
+            }
+        }
+    }
+}*/
+
 
 
 function set_Left() {
@@ -32,6 +108,7 @@ function set_Left() {
             //Portanto, o cont_4 == "flex" (precisa ir ao 3)
             cont_3.style.display = "flex";
             cont_4.style.display = "none";
+            //cont_3.classList.add('animate__animated animate__bounce');
         }
 
         else {
