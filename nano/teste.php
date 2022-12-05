@@ -53,16 +53,14 @@
             <div class="div_about_site">
                 <div class="button_presentation button_benef">Benefícios do site</div>
                 <div class="div_benef_carrossel">
-                    <div class="div_benef_icons dropdown content_test">
-                        <div class="dropdown-content test">
+                    <div class="div_benef_icons dropdown">
+                        <!--<div class="dropdown-content test">
 
-                            <!-- Tópicos do "menu de navegação" -->
-                            <!-- Redirecionará ao respectivo item linkado -->
                             <a href="#sonic">Categorias</a>
                             <a href="#">Importância da Doação e Troca</a>
                             <a href="#">Vantagens</a>
                             <a href="#">YouTube</a>
-                        </div>
+                        </div>-->
                         <img src="img/doacao_alimento.png" class="img_icons">
                         <div class="p_icons">Sempre tendo pessoas disponíveis para troca e doação em nosso site</div>                    
                     </div>
@@ -75,22 +73,22 @@
                         <div class="p_icons">Focado a atender o território brasileiro, em toda sua região</div>
                     </div>
                     <div class="div_benef_icons">
-                        <img src="img/pink.jpg" class="img_icons">
+                        <img src="img/traducao.png" class="img_icons">
                         <div class="p_icons">Acessível nas linguagens: português (brasileiro) e inglês</div>
                     </div>
                     <div class="div_benef_icons last_icon">
-                        <img src="img/pink.jpg" class="img_icons">
-                        <div class="p_icons">Sempre tendo pessoas disponíveis para troca e doação em nosso site</div>
+                        <img src="img/tema_escuro.png" class="img_icons">
+                        <div class="p_icons">Disponível com os temas escuro e claro ao site inteiro</div>
                     </div>
                 </div>
             </div>
 
             <div class="div_about_site div_important">
-                <div class="button_presentation button_benef">Importância da Doação e Troca</div>
+                <div class="button_presentation button_benef">Importância da doação e troca</div>
                 <div class="div_benef_carrossel">
                     <div class="div_benef_icons">
-                        <img src="img/pink.jpg" class="img_icons">
-                        <div class="p_icons">Sempre tendo pessoas disponíveis para troca e doação em nosso site</div>
+                        <img src="img/reciclagem.png" class="img_icons">
+                        <div class="p_icons">Se evita o desperdício quando é doado um produto para outra pessoa</div>
                     </div>
                     <div class="div_benef_icons">
                         <img src="img/pink.jpg" class="img_icons">
@@ -114,10 +112,22 @@
 
         <section>
             <div class="div_desenv">
-                Informações sobre os desenvolvedores
+                <div>Sobre as desenvolvedoras do site</div>
+                <div class="filho_desenv">
+                    <img src="img/pink.jpg" class="img_desenv">
+                    <p class="p_desenv">Descrição pessoa</p>
+                </div>
             </div>
         </section>
 
-        <footer></footer>
+        <footer>
+            <div class="div_fot_icons">
+                <img src="img/footer/facebook.png" class="img_fot_icons">
+                <img src="img/footer/twitter.png" class="img_fot_icons">
+                <img src="img/footer/instagram.png" class="img_fot_icons">
+            </div>
+            <label>Sobre nós - Termos de privacidade</label>
+            <label>Todos os direitos reservados ao Projeto DoIn</label>
+        </footer>
 	</body>
 </html>
