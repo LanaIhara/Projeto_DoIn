@@ -90,6 +90,9 @@ p {
     width: 19.5%;
     margin-right: 1.5%;
     background-color: beige;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
 }
 
 .last_icon {

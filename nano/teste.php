@@ -67,11 +67,11 @@
                         <div class="p_icons">Sempre tendo pessoas disponíveis para troca e doação em nosso site</div>                    
                     </div>
                     <div class="div_benef_icons">
-                        <img src="img/pink.jpg" class="img_icons">
+                        <img src="img/ranking.png" class="img_icons">
                         <div class="p_icons">Com um ranking de pessoas que trocam e doam produtos</div>
                     </div>
                     <div class="div_benef_icons">
-                        <img src="img/pink.jpg" class="img_icons">
+                        <img src="img/brasil.png" class="img_icons">
                         <div class="p_icons">Focado a atender o território brasileiro, em toda sua região</div>
                     </div>
                     <div class="div_benef_icons">
