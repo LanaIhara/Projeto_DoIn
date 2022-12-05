@@ -42,7 +42,7 @@
                 
                 <div class="div_text_pres">
                     <h1>Projeto DoIn</h1>
-                    <p>Site desenvolvido por estudantes do ensino médio com o objetivo de reduzir o consumismo e preservar do meio ambiente através da doação e troca de 
+                    <p>Site desenvolvido por estudantes do ensino médio com o objetivo de reduzir o consumismo e preservar o meio ambiente através da doação e troca de 
                     produtos na sociedade brasileira, facilitando o anúncio desses tipos de câmbio por 
                     meio deste site.</p>
                     <p>Se junte a nossa causa</p>
