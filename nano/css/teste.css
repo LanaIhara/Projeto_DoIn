@@ -54,13 +54,16 @@ p {
 }
 
 .button_benef {
-    width: 500px;
-    margin: 0;
+    width: 300px;
+    margin: 15px auto;
+    margin-bottom: 50px;
+    background-color: #FF829D;
+    text-align: center;
 }
 
 .div_about_site {
     top: 130px;
-    height: 400px; /*325*/ /*375*/
+    height: 525px; /*325*/ /*375*/
     position: relative;
     background-color: #C9E265; /*#2CB43E;*/
     padding-left: 1.25%;
@@ -73,7 +76,7 @@ p {
     width: 100%;
     margin-top: 15px;
     height: 250px; /*230*/
-    background-color: aqua;
+    /*background-color: aqua;*/
     display: flex;
 }
 
@@ -82,7 +85,7 @@ p {
     border-radius: 20px;
     width: 19.5%;
     margin-right: 1.5%;
-    background-color: #FF829D;
+    background-color: beige;
 }
 
 .last_icon {
