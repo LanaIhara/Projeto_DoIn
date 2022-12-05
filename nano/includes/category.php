@@ -7,11 +7,11 @@
     <!--<img src="img/pink.jpg" class="img_set">-->
     </button>
 
-    <div class="carrossel_category" id="animation_1">
+    <div class="carrossel_category background_set" id="animation_1">
 
-        <div class="carrossel_category" id="animation_3">
+        <div class="carrossel_category background_set" id="animation_3">
             <!-- 1: Beleza -->
-            <div class="div_category">
+            <div class="div_category" id="a">
                 <img src="img/category/beleza.png" class="img_category">
                 <label>Beleza</label>
             </div>
@@ -29,10 +29,10 @@
             </div>
         </div>
 
-        <div class="carrossel_category" id="animation_4">
+        <div class="carrossel_category background_set" id="animation_4">
 
             <!-- 4: Eletrodomésticos -->
-            <div class="div_category">
+            <div class="div_category" id="e">
                 <img src="img/category/eletrodomestico.png" class="img_category">
                 <label>Eletrodomésticos</label>
             </div>
@@ -55,12 +55,12 @@
         </div>
     </div>
 
-    <div class="carrossel_category" id="animation_2">
+    <div class="carrossel_category background_set" id="animation_2">
 
-        <div class="carrossel_category" id="animation_5">
+        <div class="carrossel_category background_set" id="animation_5">
 
             <!-- 7: Alimentos -->
-            <div class="div_category">
+            <div class="div_category" id="f">
                 <img src="img/category/alimento.png" class="img_category">
                 <label>Alimentos</label>
             </div>
@@ -78,10 +78,10 @@
             </div>
         </div>
 
-        <div class="carrossel_category" id="animation_6">
+        <div class="carrossel_category background_set" id="animation_6">
 
             <!-- 10: Eletrônicos -->
-            <div class="div_category">
+            <div class="div_category" id="g">
                 <img src="img/category/eletronico.png" class="img_category">
                 <label>Eletrônicos</label>
             </div>
