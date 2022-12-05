@@ -140,3 +140,35 @@ p {
         top: 0;
     }
 }
+
+@media (max-width: 850px) {
+    .img_presentation {
+        display: none;
+    }
+
+    .div_presentation p {
+        text-align: center;
+        text-indent: 0;
+    }
+
+    .div_presentation h1 {
+        display: none;
+    }
+
+    .div_text_pres {
+        width: calc(100% - 20px);
+        margin-top: 15px;
+        display: flex
+        justify-content: center;
+    }
+
+    .div_presentation {
+        height: 200px;
+        padding-top: 10px;
+        padding-bottom: 50px;
+    }
+
+    .button_presentation {
+        text-align: center;
+    }
+}
