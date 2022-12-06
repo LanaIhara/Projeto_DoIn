@@ -11,7 +11,7 @@ body {
     --color-blueviolet: #794C18;
 }
 
-.primeiro {
+.first_user_page {
     background-color: var(--color-white);
     height: 510px;
     width: 100%;
@@ -20,7 +20,7 @@ body {
     top: 115px; /* me sinto burra pq pensava que precisava de padding-top */
 }
 
-.sinonimo {
+.div_back_user {
     /*padding: 30px; /* não deu certo de usar margin (desconfigura o cabeçalho fixed) então vai a merda do padding */
     height: calc(100% - 40px);
     width: calc(100% - 60px);
@@ -71,7 +71,7 @@ body {
     /* Fonte: https://www.maujor.com/tutorial/propriedades-css-para-estilizacao-de-bordas.php */
 }
 
-.antonimo {
+.div_cont_all {
     height: calc(100% - 40px);
     background-color: var(--color-blueviolet);
     width: 50%;
@@ -105,10 +105,9 @@ body {
 
 #perfil {
     display: inline;
-    background-color: #947FE6;
 }
 
-.ur_bro {
+.div_unir_info_user {
     height: calc(55% - 20px);
     width: calc(100% - 20px);
 
@@ -145,9 +144,5 @@ body {
 }
 
 #config {
-    display: none;
-}
-
-#change_perfil {
     display: none;
 }
