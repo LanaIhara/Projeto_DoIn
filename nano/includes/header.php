@@ -80,4 +80,7 @@
             <a href="#" class="a_button"><div class="button" id="login">Login</div></a>
         </div>
     </div>
+    <a href="#" class="a_button"><div class="button div_img_usuario">
+        <img src="img/pink.jpg" id="img_usuario">
+    </div></a>
 
