@@ -6,7 +6,7 @@
     </div>
 
     <div class="div_fot_info">
-        <label>Sobre nós • Termos de privacidade</label>
-        <label>Todos os direitos reservados ao Projeto DoIn</label>
+        <p>Sobre nós • Termos de privacidade</p>
+        <p>Todos os direitos reservados ao Projeto DoIn</p>
     </div>
 </footer>

@@ -10,10 +10,10 @@ footer {
     padding-top: 20px;
 }
 
-footer label {
-    margin-left: 0 !important;
+footer p {
     margin-top: 5px;
     color: white;
+    font-size: large;
 }
 
 .div_fot_info {
