@@ -5,7 +5,12 @@
     <!-- Ao clicar, redireciona à página principal -->
     <a href="index.php" class="div_logo"><img class="img_logo" src="img/header/doin_logotype.png"></a>
 </header>
-    <div class="ok">
+    <div class="espaco_header">
+
+        <a href="#" class="a_button"><div class="div_img_usuario">
+            <img src="img/lana.jpg" id="img_usuario">
+        </div></a>
+
         <!-- PÁGINAS DO SITE -->
         <div class="dropdown" id="pags_site">
 
@@ -51,7 +56,7 @@
 
                 <!-- Tópicos do "menu de navegação" -->
                 <!-- Redirecionará ao respectivo item linkado -->
-                <a href="#">Categorias</a>
+                <a href="index.php#div_presentatiion">Introdução</a>
                 <a href="#">Importância da Doação e Troca</a>
                 <a href="#">Vantagens</a>
                 <a href="#">YouTube</a>
@@ -68,7 +73,7 @@
                     <img class="img_symbol img_home" src="img/header/home.png">
                 </div></a>
 
-                <a href="#" class="a_button"><div class="purple_button button espac_contact">
+                <a href="#" class="a_button"><div class="purple_button button">
                     <!-- Título -->
                     Sobre nós
                 </div></a>
@@ -78,9 +83,9 @@
             <!-- Colocar uma condição de aparecer os botões se o usuário estiver deslogado -->
             <a href="#" class="a_button"><div class="button espac_log" id="cadastro">Cadastre-se</div></a>
             <a href="#" class="a_button"><div class="button" id="login">Login</div></a>
-        </div>
-    </div>
-    <a href="#" class="a_button"><div class="button div_img_usuario">
-        <img src="img/pink.jpg" id="img_usuario">
-    </div></a>
 
+            
+        </div>
+        
+    </div>
+    

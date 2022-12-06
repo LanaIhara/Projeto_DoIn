@@ -33,7 +33,7 @@ body {
     background-color: var(--color-yes); /*#FFC470; /* #FFBF65 -> mais escuro */
 }
 
-.ok {
+.espaco_header {
     position: fixed;
     z-index: 10;
     width: 100%;
@@ -127,11 +127,6 @@ body {
 }
 /* Fonte do dropdown: https://blog.hubspot.com/website/html-dropdown#:~:text=A%20drop%2Ddown%20menu%20is,user%20disengages%20from%20the%20menu. */
 
-/* Referente ao espaçamento da <div> "sobre nós" */
-.espac_contact {
-    margin-right: 85px !important;
-}
-
 /* Referente a cor das <div> "home" e "sobre nós" */
 .purple_button {
     background-color: #8A2BE2 !important;
@@ -142,6 +137,7 @@ body {
 
     /* OBS: Será retirado os dois campos na versão mobile, por isso o seu uso */
     display: inline;
+    margin-right: 125px; /*85px*/
 }
 
 /* <div> que armazena o "home", "sobre nós", "login" e "cadastre-se" */
@@ -236,15 +232,27 @@ body {
 
 .div_img_usuario {
     padding: 0;
+    margin: 0;
     height: 50px;
-    position: relative;
+    position: absolute;
+    right: 20px;
+    top: 15px;
     z-index: 10;
+
+    height: 75px;
+    border-radius: 37.5px;
+
+    /* Fonte: https://stackoverflow.com/questions/9735513/how-to-place-a-div-on-the-right-side-with-absolute-position */
 }
 
 #img_usuario {
-    height: 50px;
-    border-radius: 25px;
+    height: 75px;
+    border-radius: 37.5px;
 }
+
+/*.div_img_usuario {
+    display: none;
+}*/
 
 #cadastro {
     display: none;
@@ -293,7 +301,7 @@ body {
         width: 180px;
     }
 
-    .ok {
+    .espaco_header {
         position: sticky;
         top: 0;
         z-index: 10;

@@ -48,7 +48,7 @@ section {
                 Videoaula sobre position e z-index: https://pt.khanacademy.org/computing/computer-programming/html-css/css-layout-properties/pt/css-position */
 }
 
-.div_presentation {
+#div_presentation {
     /*height: 350px;*/
     top: 130px;
     position: relative;
