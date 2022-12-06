@@ -127,7 +127,7 @@
                     </div>
 
                     <div class="box_desenv">
-                        <img src="img/pink.jpg" class="img_desenv">
+                        <img src="img/alice.jpg" class="img_desenv">
                         <label class="label_desenv">Alice Balbino</label>
 
                         <a href="https://github.com/alice-balbino">
@@ -139,10 +139,10 @@
                     </div>
 
                     <div class="box_desenv">
-                        <img src="img/pink.jpg" class="img_desenv">
+                        <img src="img/evelin.jpeg" class="img_desenv">
                         <label class="label_desenv">Évelin Frederico</label>
 
-                        <a href="#">
+                        <a href="https://github.com/Evelinfb">
                             <img src="img/github.png" class="img_fot_icons">
                         </a>
 
@@ -151,7 +151,7 @@
                     </div>
 
                     <div class="box_desenv">
-                        <img src="img/pink.jpg" class="img_desenv">
+                        <img src="img/giovanna.jpg" class="img_desenv">
                         <label class="label_desenv">Giovanna Araujo</label>
 
                         <a href="https://github.com/Araujolim">
