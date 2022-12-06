@@ -23,9 +23,9 @@
         <div class="primeiro">
             <div class="sinonimo">
 
-                <div class="antonimo" id="inicial">
+                <!--<div class="antonimo" id="inicial">
                     SELECIONE UMA CAIXA
-                </div>
+                </div>-->
 
                 <!-- PERFIL do usuário -->
                 <div class="antonimo" id="perfil">
@@ -51,12 +51,6 @@
                     </label>
                 </div>
 
-                <div class="antonimo" id="change_perfil">
-                    <div class="yellow">
-                        <p class="name">c</p>
-                    </div>
-                </div>
-
                 <div class="teste">
                     
                     <button class="info" id="button_perfil" onclick="select_perfil()">Perfil</button>
@@ -65,7 +59,6 @@
 
                     <button class="info" id="button_config" onclick="select_config()">Configurações</button>
 
-                    <button class="info" id="button_change" onclick="select_change()">Alterar Perfil</button>
                 </div>
             </div>
         </div>
