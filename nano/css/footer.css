@@ -2,7 +2,6 @@ footer {
     height: 165px;
     background-color: #57380F;
     margin-top: 115px;
-    width: 100%;
 }
 
 .div_fot_icons {
@@ -12,18 +11,15 @@ footer {
 }
 
 footer label {
-    text-align: center;
     margin-left: 0 !important;
     margin-top: 5px;
     color: white;
 }
 
-/*.div_fot_info {
+.div_fot_info {
     width: 100%;
-    height: fit-content;
-    display: block;
-    justify-content: center;
-}*/
+    text-align: center;
+}
 
 .img_fot_icons {
     height: 50px;
