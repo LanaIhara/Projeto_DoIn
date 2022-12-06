@@ -53,14 +53,7 @@
             <div class="div_about_site">
                 <div class="button_presentation button_benef">Benefícios do site</div>
                 <div class="div_benef_carrossel">
-                    <div class="div_benef_icons dropdown">
-                        <!--<div class="dropdown-content test">
-
-                            <a href="#sonic">Categorias</a>
-                            <a href="#">Importância da Doação e Troca</a>
-                            <a href="#">Vantagens</a>
-                            <a href="#">YouTube</a>
-                        </div>-->
+                    <div class="div_benef_icons">
                         <img src="img/doacao_alimento.png" class="img_icons">
                         <div class="p_icons">Sempre tendo pessoas disponíveis para troca e doação em nosso site</div>                    
                     </div>
@@ -84,7 +77,7 @@
             </div>
 
             <div class="div_about_site div_important">
-                <div class="button_presentation button_benef">Importância da doação e troca</div>
+                <div class="button_presentation button_benef button_important">Importância da doação e troca</div>
                 <div class="div_benef_carrossel">
                     <div class="div_benef_icons">
                         <img src="img/reciclagem.png" class="img_icons">
@@ -112,10 +105,78 @@
 
         <section>
             <div class="div_desenv">
-                <div>Sobre as desenvolvedoras do site</div>
-                <div class="filho_desenv">
-                    <img src="img/pink.jpg" class="img_desenv">
-                    <p class="p_desenv">Descrição pessoa</p>
+                <label class="button_presentation button_benef label_ab_desenv">Sobre as desenvolvedoras do site</label>
+                
+                <div class="sub_div_desenv">
+
+                    <div class="box_desenv">
+                        <img src="img/alexia.jpeg" class="img_desenv">
+                        <label class="label_desenv">Alexia Ferreira</label>
+                        
+                        <a href="https://github.com/Alexia01Edu">
+                            <img src="img/github.png" class="img_fot_icons">
+                        </a>
+
+                        <a href="mailto:alexia.eduarda@aluno.ifsp.edu.br">
+                            <img src="img/gmail.png" class="img_fot_icons">
+                        </a>
+                        
+                        <p class="p_desenv"> Criação do banco de dados e sua conexão com o site (back-end).
+                             Responsável pela elaboração das páginas do cadastro do produto, perfil do produto
+                              e ranking dos usuários.</p>
+                    </div>
+
+                    <div class="box_desenv">
+                        <img src="img/pink.jpg" class="img_desenv">
+                        <label class="label_desenv">Alice Balbino</label>
+
+                        <a href="https://github.com/alice-balbino">
+                            <img src="img/github.png" class="img_fot_icons">
+                        </a>
+
+                        <p class="p_desenv">Responsável pela formação do cabeçalho e rodapé das páginas,
+                            criação da página principal e perfil do usuário. Elaborou o design da logo e coloração do site.</p>
+                    </div>
+
+                    <div class="box_desenv">
+                        <img src="img/pink.jpg" class="img_desenv">
+                        <label class="label_desenv">Évelin Frederico</label>
+
+                        <a href="#">
+                            <img src="img/github.png" class="img_fot_icons">
+                        </a>
+
+                        <p class="p_desenv">Responsável pela formação do cabeçalho e rodapé das páginas,
+                            criação da página principal e perfil do usuário. Elaborou o design da logo e coloração do site.</p>
+                    </div>
+
+                    <div class="box_desenv">
+                        <img src="img/pink.jpg" class="img_desenv">
+                        <label class="label_desenv">Giovanna Araujo</label>
+
+                        <a href="https://github.com/Araujolim">
+                            <img src="img/github.png" class="img_fot_icons">
+                        </a>
+
+                        <p class="p_desenv">Responsável pela formação do cabeçalho e rodapé das páginas,
+                            criação da página principal e perfil do usuário. Elaborou o design da logo e coloração do site.</p>
+                    </div>
+
+                    <div class="box_desenv">
+                        <img src="img/lana.jpg" class="img_desenv">
+                        <label class="label_desenv">Lana Ihara</label>
+
+                        <a href="https://github.com/nanoihara">
+                            <img src="img/github.png" class="img_fot_icons">
+                        </a>
+                        
+                        <a href="mailto:akemiihara1234@gmail.com">
+                            <img src="img/gmail.png" class="img_fot_icons">
+                        </a>
+
+                        <p class="p_desenv">Responsável pela formação do cabeçalho e rodapé das páginas,
+                            criação da página principal e perfil do usuário. Elaborou o design da logo e coloração do site.</p>
+                    </div>
                 </div>
             </div>
         </section>
