@@ -5,8 +5,8 @@
         <img src="img/footer/instagram.png" class="img_fot_icons">
     </div>
 
-    <div class="div_fot_info">
+    <!--<div class="div_fot_info">-->
         <label>Sobre nós • Termos de privacidade</label>
         <label>Todos os direitos reservados ao Projeto DoIn</label>
-    </div>
+    <!--</div>-->
 </footer>
