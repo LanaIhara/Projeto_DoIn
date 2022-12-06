@@ -1,0 +1,126 @@
+/* Refere-se ao css do index */
+
+/*  class -> . 
+    id=   -> # */
+
+section {
+    position: relative; /*para top funcionar */
+    top: 115px;
+    height: 500px;
+    background-color: black;
+}
+
+.div_presentation {
+    height: 700px;
+    top: 130px;
+    position: relative;
+    background-color: #C9E265;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 350px;
+}
+    
+.img_presentation {
+    height: 350px;
+}
+    
+.div_text_pres {
+    /*background-color: yellow;*/
+    width: calc(45% - 30px);
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: 20px;
+    height: 100%;
+}
+    
+p {
+    font-size: larger;
+    text-indent: 3em;
+    text-align: justify;
+    margin-top: 10px;
+}
+    
+.button_presentation {
+    background-color: blueviolet;
+    width: 265px;
+    font-size: larger;
+    margin-left: 3em;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+/* Introdução de um gif (logo do DoIn) ao abrir o index do site */
+#introduction {
+
+    /* Posição dos elementos no site; quebra o padrão de posição estabelecido por cada elemento do html
+        Fixed: elementos fixados de acordo com o tamanho da tela do computador/celular */
+    position: fixed;
+
+    /* Serve para ordenar os elementos da página (qual elemento irá sobrepor a outra. OBS: por conta do position: fixed) 
+    No caso, a <div> e seus elementos sobrepõem todo o restante do site (header, section, footer) */
+    z-index: 50;
+
+    /* Tamanho que os elementos da <div> id="introduction" e ela própria poderão ocupar no espaço da tela */
+    top: 0;
+    left: 0;
+    width: 100%; /* 100 % da tela */
+    height: 100%;
+
+    /* Opacidade */
+    opacity: 1;
+    
+    /* Cor de fundo */
+    background-color: #D1EAFF;
+
+    /* Imagem de fundo (sobrepõe o background-color) */
+    background-image: url("../img/doin_introduction.gif"); /* .. - serve para sair da pasta */
+    background-size: 500px 500px; /* Tamanho da imagem de fundo no site */
+    background-position: center; /* Posição da imagem de fundo (centro) */
+    background-repeat: no-repeat; /* Não há repetição da imagem caso ela não compor a tela inteira */
+
+    /* Fontes:  Geral: https://pt.stackoverflow.com/questions/66039/como-colocar-uma-gif-antes-de-exibir-a-p%C3%A1gina-do-site/67568#67568
+                Código estudado e implementado: http://jsfiddle.net/SamirChaves/6ns0grm0/2/
+                Videoaula sobre position e z-index: https://pt.khanacademy.org/computing/computer-programming/html-css/css-layout-properties/pt/css-position */
+}
+
+.curiosidades {
+    height: 30vh;
+    background-color: brown;
+}
+
+#circulo {
+    /* Posição dos elementos no site; quebra o padrão de posição estabelecido por cada elemento do html
+        Relative: a <div> class="container" não possuirá a posição padrão imposto pelo site e também
+        haverá a SOBREPOSIÇÃO de elementos, fazendo com que um fique sobreposto a outro. Porém, poderá
+        desarrumar a identação/visual ao diminuir o tamanho da tela. 
+    Fonte: https://www.devmedia.com.br/como-usar-a-propriedade-position-css/24451 */
+    position: absolute;
+    border-radius: 100px;
+    height: 200px;
+    width: 200px;
+    z-index: 3;
+    background-color: yellow;
+
+    top: 20vh;
+    left: 42.25vw;
+}
+    /* Fonte: https://pt.stackoverflow.com/questions/440679/colocar-elementos-lado-a-lado-usando-html-e-css */
+
+/* Cell Lana: 1089 x 2160 */
+@media (max-width: 1100px) {
+}
+
+/* PC Lana: 1366 x 768 */
+@media (max-width: 1300px) {
+}
+
+/* PC Escola: 1600 x 900 (width x height) */
+@media (max-width: 1900px) {
+}
+
+/* Coisas talvez uteis:
+https://www.hostinger.com.br/tutoriais/criar-site-responsivo-css
+https://www.maujor.com/tutorial/propriedades-css-para-estilizacao-de-listas.php */
