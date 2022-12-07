@@ -181,7 +181,7 @@ section p {
 
 .sub_div_desenv {
     height: 400px;
-    width: 100%;
+    width: calc(100% - 40px);
     margin-top: 50px;
     margin-left: 20px;
     margin-right: 20px;
@@ -189,6 +189,7 @@ section p {
     display: flex;
     justify-content: space-between;
 }
+
 .box_desenv {
     background-color: white;
     border-radius: 20px;
@@ -199,7 +200,6 @@ section p {
     /*width: 217.5px;*/
     width: calc(17.5% - 30px);
     padding: 15px;
-    margin-left: 13.5px;
 }
 
 .img_desenv {

@@ -86,7 +86,7 @@ body {
     /* Fonte: https://pt.stackoverflow.com/questions/178699/centralizar-um-div-com-texto-e-position-absolute-no-centro-da-div-pai */
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-right: 200px;
+    margin-right: 20%; /*200px;*/
 
     border-radius: 20px;
 }
@@ -138,6 +138,9 @@ label {
 .div_imgUser {
     background-color: gray;
     height: 100%;
+    width: 40%;
+
+    text-align: center; 
 
     display: inline-block;
     border-radius: 20px;
@@ -193,7 +196,6 @@ label {
 .div_infoPlus {
     width: 40%;
     display: inline-block;
-    text-align: center;
     justify-content: space-between;
 }
 
@@ -286,4 +288,19 @@ label {
     min-width: 150px;
 
     cursor: pointer;
+}
+
+@media (min-width: 1800px){
+    .first_user_page {
+        height: 700px;
+    }
+
+    /*.div_cont_all {
+
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: px;
+    
+        border-radius: 20px;
+    }*/
 }
