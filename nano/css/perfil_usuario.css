@@ -13,16 +13,16 @@ body {
 
 .first_user_page {
     background-color: var(--color-white);
-    height: 510px;
+    height: 570px;
     width: 100%;
 
     position: relative;
-    top: 115px; /* me sinto burra pq pensava que precisava de padding-top */
+    top: 115px;
 }
 
 .div_back_user {
     /*padding: 30px; /* não deu certo de usar margin (desconfigura o cabeçalho fixed) então vai a merda do padding */
-    height: calc(100% - 40px);
+    height: calc(100% - 30px);
     width: calc(100% - 60px);
     /* Fonte: https://stackoverflow.com/questions/29210902/combine-divs-with-percentage-width-with-margin-in-pixels */
 
@@ -107,36 +107,111 @@ body {
     display: inline;
 }
 
-.div_unir_info_user {
+label {
+    font-weight: bold;
+}
+
+.div_unir_infoUser {
     height: calc(55% - 20px);
     width: calc(100% - 20px);
 
     margin-top: 20px;
     margin-left: 20px;
     position: relative;
+
+    background-color: black;
 }
 
-.ur_mom {
+.div_infoUser {
     height: 100%;
 
     width: calc(60% - 20px);
     background-color: aqua;
     border-radius: 20px;
     display: inline-block;
+    vertical-align: top;
 
-    /* Fonte: https://www.clubedohardware.com.br/forums/topic/1520836-como-colocar-divs-uma-ao-lado-da-outra-html-e-css-js/ */
+    /* Fonte: https://www.clubedohardware.com.br/forums/topic/1520836-como-colocar-divs-uma-ao-lado-da-outra-html-e-css-js/ 
+    https://stackoverflow.com/questions/35184954/why-does-div-with-content-move-down-in-inline-block#:~:text=This%20is%20happening%20because%20the,inline%20block%20element%20is%20baseline%20*.&text=As%20you%20can%20see%2C%20the,the%20text%20is%20aligned%20on.*/
 }
 
-.yellow {
+.div_imgUser {
     background-color: gray;
     height: 100%;
 
-    width: 39%;
-
     display: inline-block;
-    margin-right: 10px;
-
     border-radius: 20px;
+}
+
+#user_img {
+    position: relative;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.div_infoUser label {
+    font-size: large;
+    background-color: yellow;
+    width: 35.5%;
+}
+
+.div_cadaInfo {
+    background-color: burlywood;
+    margin-top: 17.5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div_infoUser p {
+    font-size: medium;
+    width: 63.5%;
+}
+
+.div_unir_baixo {
+    height: calc(40% - 20px);
+}
+
+.div_unir_baixo label {
+    background-color: #947FE6;
+    padding: 10px;
+    border-radius: 20px;
+    width: 30%;
+}
+
+.div_unir_baixo p {
+    margin-top: 15px;
+    width: 100%;
+}
+
+.div_bio {
+    display: inline-block;
+    text-align: center;
+    height: calc(100% - 20px);
+    padding: 10px 0;
+}
+
+.div_infoPlus {
+    width: 40%;
+    display: inline-block;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.label_quant {
+    font-size: small;
+    width: 55% !important;
+    text-align: left;
+}
+
+.p_quant {
+    font-size: small !important;
+    margin: auto !important;
+    width: 43% !important;
+    background-color: beige;
+}
+
+.sem_mg_top {
+    margin-top: 0;
 }
 
 #product {
@@ -145,4 +220,70 @@ body {
 
 #config {
     display: none;
+}
+
+.div_tituloUser {
+    height: calc(100% - 40px);
+    width: calc(100% - 40px);
+
+    margin: 20px;
+    position: relative;
+
+    background-color: yellow;
+    text-align: center; 
+}
+
+.tituloUser {
+    display: block;
+    text-align: center;
+    font-size: larger;
+    padding: 20px;
+    height: 30px;
+    background-color: aqua;
+    border-radius: 20px;
+}
+
+.div_produto {
+    margin-top: 15px;
+    display: flex;
+}
+
+.all_produto {
+    width: 100%;
+    margin-top: 20px;
+    overflow-y: auto;
+    display: inline-block;
+    height: calc(100% - 120px);
+    background-color: red;
+}
+
+.label_produto {
+    margin-left: 10px;
+    background-color: #00FFF0;
+  
+    /* add a transparent border or use #00FFF0 for color */
+    border: 1px transparent solid;
+  
+    /* Allows us to include the padding and border in an element's total width and height. */
+    box-sizing: border-box;
+    
+    color: black;
+    
+    /* remove the top and bottom padding, we don't need them */
+    padding: 0px 30px;
+    
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    
+    /* Use this to set a fixed height so the height won't changes */
+    height: 35px;
+    
+    /* Set to same as height so the text is centred in the middle. You can change the font-size or family without the box getting bigger */
+    line-height: 35px;
+    
+    /* So that the box doesn't shrink or expand if the font-size changes on hover like in this example. */
+    min-width: 150px;
+
+    cursor: pointer;
 }
