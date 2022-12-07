@@ -1,3 +1,7 @@
+<?
+session_start();
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,6 +12,7 @@
     <link rel="stylesheet" type="text/css" href="lib/css/header.css"/> <!-- refere-se ao css do cabeçalho -->
     <link rel="stylesheet" type="text/css" href="lib/css/perfil_usuario.css"/> <!-- refere-se ao css deste documento -->
     <link rel="stylesheet" type="text/css" href="lib/css/footer.css"/>
+    <link rel="stylesheet" href="lib/css/card_Prod.css">
 
     <link rel="icon" type="image/png" href="img/favicon.png" /> <!-- refere-se ao favicon.png -->
 </head>
@@ -17,7 +22,22 @@
         <?php
             include "includes/header.php";
         ?>
+        <?php 
+        /*require_once 'includes/funcoes.php';
+        require_once 'core/conexao_mysql.php';
+        require_once 'core/sql.php';
+        require_once 'core/mysql.php'; 
 
+        if(isset($_SESSION['login'])) {
+ 
+           $id = (int) $_SESSION['login']['usuario']['usuarioID'];
+           $criterio []= ['usuarioID','=', $id];}
+        $usuario= buscar(
+            'usuario',
+            ['*'],
+            $criterio
+        );*/
+        ?>
         <script type="text/javascript" src="lib/js/perfil_usuario.js"></script>
 
         <!-- Início da página do usuário -->
@@ -102,24 +122,38 @@
                         </div>-->
 
                         <div class="all_produto">
-                            <div class="div_imgUser">
-                                <img id="user_img" src="img/lana.jpg">
-                            </div>
-                            <div class="div_imgUser">
-                                <img id="user_img" src="img/lana.jpg">
-                            </div>
-                            <div class="div_imgUser">
-                                <img id="user_img" src="img/lana.jpg">
-                            </div>
-                            <div class="div_imgUser">
-                                <img id="user_img" src="img/lana.jpg">
-                            </div>
-                            <div class="div_imgUser">
-                                <img id="user_img" src="img/lana.jpg">
-                            </div>
-                            <div class="div_imgUser">
-                                <img id="user_img" src="img/lana.jpg">
-                            </div>
+                        <?php
+                        /*
+                        $Prod[] = ['fk_usuario', '=', $id];
+                            $result = buscar (
+                                'Produto',
+                                ['*',
+                                '(select nome
+                                    from categoria
+                                    where categoriaID = Produto.fk_categoria) as categoria',
+                                 '(SELECT Imagem_arq  
+                                    FROM Imagem WHERE fk_produto = produtoID  
+                                    LIMIT 1) as imagem_arq'],
+                                $Prod
+                                );
+                                foreach($result as $Produtos) {
+                                    $P = $Produtos['fk_categoria'];}
+                               
+                                    function postiit(array $entidade): string
+                                        {
+                                            if($entidade['modoOperacao']=='Troca'){
+                                                $src = 'img/Amarelo.jpg';
+                                            }
+                                            if($entidade['modoOperacao']=='Doação'){
+                                                $src = 'img/verde.jpg';
+                                            }
+                                            return $src;
+                                        }
+                        
+                                foreach($result as $entidade) {
+                          
+                                    include 'includes/card_Prod.php';
+                                } */?>
                         </div>
                     </div>
                 </div>

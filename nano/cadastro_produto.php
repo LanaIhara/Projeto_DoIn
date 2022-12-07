@@ -36,7 +36,7 @@
         <input type="hidden" name="acao" value="<?php echo 'insert'?>">
            
             <div class="containerimg">
-                <input type="file" id="file-input" name='imagens[]' accept="image/png, image/jpeg, imagem/jpg" onchange="preview()" multiple>
+                <input type="file" id="file-input"  required name='imagens[]' accept="image/png, image/jpeg, imagem/jpg" onchange="preview()" multiple>
                 <label for="file-input">
                     <i class="fas fa-upload"></i> &nbsp; Choose A Photo
                 </label>
