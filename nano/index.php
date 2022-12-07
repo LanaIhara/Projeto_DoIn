@@ -56,7 +56,7 @@
             </div>
 
             <div class="div_about_site">
-                <div class="button_presentation button_benef">Benefícios do site</div>
+                <div class="button_presentation button_benef" id="benef_site">Benefícios do site</div>
                 <div class="div_benef_carrossel">
                     <div class="div_benef_icons">
                         <img src="img/doacao_alimento.png" class="img_icons">
@@ -82,27 +82,27 @@
             </div>
 
             <div class="div_about_site div_important">
-                <div class="button_presentation button_benef button_important">Importância da doação e troca</div>
+                <div class="button_presentation button_benef button_important" id="important_doacaoTroca">Importância da doação e troca</div>
                 <div class="div_benef_carrossel">
                     <div class="div_benef_icons">
                         <img src="img/reciclagem.png" class="img_icons">
-                        <div class="p_icons">Se evita o desperdício quando é doado um produto para outra pessoa</div>
+                        <div class="p_icons">Se evita o desperdício quando se é doado um produto para outra pessoa</div>
                     </div>
                     <div class="div_benef_icons">
-                        <img src="img/pink.jpg" class="img_icons">
-                        <div class="p_icons">Com um ranking de pessoas que trocam e doam produtos</div>
+                        <img src="img/dinheiro.png" class="img_icons">
+                        <div class="p_icons">Ao trocar um produto que não quer mais por outro, economiza-se dinheiro</div>
                     </div>
                     <div class="div_benef_icons">
-                        <img src="img/pink.jpg" class="img_icons">
-                        <div class="p_icons">Focado a atender o território brasileiro, em toda sua região</div>
+                        <img src="img/materialista.png" class="img_icons">
+                        <div class="p_icons">Você se torna uma pessoa menos materialista ao doar ou trocar produtos</div>
                     </div>
                     <div class="div_benef_icons">
-                        <img src="img/pink.jpg" class="img_icons">
-                        <div class="p_icons">Acessível nas linguagens: português (brasileiro) e inglês</div>
+                        <img src="img/presentes.png" class="img_icons">
+                        <div class="p_icons">Não só isso, contribui para as pessoas encontrarem o que estão precisando</div>
                     </div>
                     <div class="div_benef_icons last_icon">
-                        <img src="img/pink.jpg" class="img_icons">
-                        <div class="p_icons">Sempre tendo pessoas disponíveis para troca e doação em nosso site</div>
+                        <img src="img/troca.png" class="img_icons">
+                        <div class="p_icons">Além disso, influencia a prática da boa ação e ajuda àqueles próximos a você</div>
                     </div>
                 </div>
             </div>
@@ -110,7 +110,7 @@
 
         <section>
             <div class="div_desenv">
-                <label class="button_presentation button_benef label_ab_desenv">Sobre as desenvolvedoras do site</label>
+                <label class="button_presentation button_benef label_ab_desenv" id="desenv_site">Sobre as desenvolvedoras do site</label>
                 
                 <div class="sub_div_desenv">
 
@@ -140,7 +140,7 @@
                         </a>
 
                         <p class="p_desenv">Responsável pela formação do cabeçalho e rodapé das páginas,
-                            criação da página principal e perfil do usuário. Elaborou o design da logo e coloração do site.</p>
+                            criando a principal e o perfil do usuário. Elaborou a logo e padronização das cores do site.</p>
                     </div>
 
                     <div class="box_desenv">
@@ -180,7 +180,7 @@
                         </a>
 
                         <p class="p_desenv">Responsável pela formação do cabeçalho e rodapé das páginas,
-                            criação da página principal e perfil do usuário. Elaborou o design da logo e coloração do site.</p>
+                            criando a principal e o perfil do usuário. Elaborou a logo e padronização das cores do site.</p>
                     </div>
                 </div>
             </div>

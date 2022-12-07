@@ -101,7 +101,7 @@ section p {
 }
 
 .button_important {
-    background-color: #FF2D91;
+    background-color: #FF5F10;
 }
 
 .div_about_site {
@@ -225,6 +225,10 @@ section p {
     section {
         top: 0;
     }
+}
+
+@media (max-width: 1130px) {
+    /* colocar aqui o beneficio/importancia */
 }
 
 @media (max-width: 850px) {

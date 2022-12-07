@@ -1,4 +1,4 @@
-<footer>
+<footer id="rodape">
     <div class="div_fot_icons">
         <img src="img/footer/facebook.png" class="img_fot_icons">
         <img src="img/footer/twitter.png" class="img_fot_icons">

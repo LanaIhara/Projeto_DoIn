@@ -31,7 +31,7 @@
             <!-- Tópicos das "páginas do site" -->
             <!-- Redirecionará aos links das páginas -->
             <a href="#">Doações e Trocas</a>
-            <a href="#">Ranking dos doadores</a> <!-- ou Top usuários do site -->
+            <a href="ranking.php">Ranking dos doadores</a> <!-- ou Top usuários do site -->
             <a href="perfil_usuario.php">Perfil do usuário</a>
             <a href="index.php">Página inicial</a>
         </div>
@@ -57,9 +57,11 @@
 
             <!-- Tópicos do "menu de navegação" -->
             <!-- Redirecionará ao respectivo item linkado -->
-            <a href="index.php#div_presentatiion">Introdução</a>
-            <a href="#">Importância da Doação e Troca</a>
-            <a href="#">Vantagens</a>
+            <a href="index.php#div_presentation">Introdução</a>
+            <a href="index.php#benef_site">Benefícios do site</a>
+            <a href="index.php#important_doacaoTroca">Importância da doação e troca</a>
+            <a href="index.php#desenv_site">Sobre as desenvolvedoras do site</a>
+            <a href="#rodape">Vantagens</a>
             <a href="#">YouTube</a>
         </div>
     </div>
