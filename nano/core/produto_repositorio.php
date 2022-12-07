@@ -125,5 +125,5 @@ switch($acao){
                 break;
 
     }
-    //header('Location: ../index.php');  
+    header('Location: ../index.php');  
 ?>

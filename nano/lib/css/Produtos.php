@@ -22,7 +22,7 @@ body{
     float:right;
     display: inline-block;
     background-color: Lavender;
-    width: 75vw;
+    width: 100%;
     height: auto;
     padding-left: 10px;
     padding-top: 10px;

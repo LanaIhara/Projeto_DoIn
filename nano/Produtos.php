@@ -18,7 +18,7 @@ session_start();
 </script>
     </head>
     <body>  
-       
+       <?php include "includes/header.php"; ?>
             <div id="main">
                     <?php
                         require_once 'includes/funcoes.php';
@@ -61,6 +61,5 @@ session_start();
                     ?>
                     <?php endforeach; ?>
             </div>
-      
     </body>
 </html>

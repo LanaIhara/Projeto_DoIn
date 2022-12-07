@@ -31,7 +31,7 @@
             <div class="max-width">
                 <p>Escolha sua foto de Perfil</p> 
                 <div class="imageContainer">
-                <img src="lib/img/camera.png" alt="Selecione uma imagem" id="imgPhoto">
+                <img src="img/camera.png" alt="Selecione uma imagem" id="imgPhoto">
                 </div>
             </div>
 

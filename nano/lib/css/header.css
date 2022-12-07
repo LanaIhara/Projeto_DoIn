@@ -88,6 +88,7 @@ body {
     
     /* Arredondamento da borda da <div> */
     border-radius: 10px;
+    z-index: 20;
 }
 
 /* Ação "hover" (passar a seta do mouse em cima da <div> "dropdown") */
@@ -253,14 +254,6 @@ body {
 /*.div_img_usuario {
     display: none;
 }*/
-
-#cadastro {
-    display: none;
-}
-
-#login {
-    display: none;
-}
 
 /* Cell Lana: 1089 x 2160 */
 /* PC Lana: 1366 x 768 */

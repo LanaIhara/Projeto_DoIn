@@ -4,10 +4,10 @@
 	<meta charset="UTF-8" /> <!-- Torna o site na linguagem pt-BR (português - Brasil), sendo possível utilizar acentos -->
 	<title>Página do Usuário | DoIn</title> <!-- Título do site -->
 
-    <link rel="stylesheet" type="text/css" href="css/zero_page.css"/> <!-- refere-se ao css que zera os espaçamentos vindos por definição -->
-    <link rel="stylesheet" type="text/css" href="css/header.css"/> <!-- refere-se ao css do cabeçalho -->
-    <link rel="stylesheet" type="text/css" href="css/perfil_usuario.css"/> <!-- refere-se ao css deste documento -->
-    <link rel="stylesheet" type="text/css" href="css/footer.css"/>
+    <link rel="stylesheet" type="text/css" href="lib/css/zero_page.css"/> <!-- refere-se ao css que zera os espaçamentos vindos por definição -->
+    <link rel="stylesheet" type="text/css" href="lib/css/header.css"/> <!-- refere-se ao css do cabeçalho -->
+    <link rel="stylesheet" type="text/css" href="lib/css/perfil_usuario.css"/> <!-- refere-se ao css deste documento -->
+    <link rel="stylesheet" type="text/css" href="lib/css/footer.css"/>
 
     <link rel="icon" type="image/png" href="img/favicon.png" /> <!-- refere-se ao favicon.png -->
 </head>
@@ -18,7 +18,7 @@
             include "includes/header.php";
         ?>
 
-        <script type="text/javascript" src="js/perfil_usuario.js"></script>
+        <script type="text/javascript" src="lib/js/perfil_usuario.js"></script>
 
         <!-- Início da página do usuário -->
         <div class="first_user_page">
@@ -148,13 +148,11 @@
                                 <label id="ranking">Ranking:</label>
                                 <p>0º</p>
                             </div>
+                            <label class="switch">
+                                <input type="checkbox" id="myCheckBox">
+                                <span class="slider round"></span>
+                            </label>
                         </div>
-                    
-
-                    <label class="switch">
-                        <input type="checkbox" id="myCheckBox">
-                        <span class="slider round"></span>
-                    </label>
                 </div>
 
                 <div class="teste">
@@ -168,8 +166,7 @@
                 </div>
             </div>
         </div>
-        <!--<script src="js/script.js"></script>-->
-        <script src="js/teste.js"></script>
+        <script src="lib/js/teste.js"></script>
 
         <?php
             include 'includes/footer.php';

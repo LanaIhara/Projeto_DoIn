@@ -4,29 +4,24 @@
 	<meta charset="UTF-8" /> <!-- Torna o site na linguagem pt-BR (português - Brasil), sendo possível utilizar acentos -->
 	<title>Página principal | DoIn</title> <!-- Título do site -->
 
-    <link rel="stylesheet" type="text/css" href="css/zero_page.css"/> <!-- refere-se ao css que zera os espaçamentos vindos por definição -->
-    <link rel="stylesheet" type="text/css" href="css/index.css"/> <!-- refere-se ao css do index-->
-    <link rel="stylesheet" type="text/css" href="css/header.css"/> <!-- refere-se ao css do cabeçalho -->
-    <link rel="stylesheet" type="text/css" href="css/category.css"/> <!-- refere-se ao css da categoria -->
-    <link rel="stylesheet" type="text/css" href="css/footer.css"/> <!-- refere-se ao css do rodapé -->
+    <link rel="stylesheet" type="text/css" href="lib/css/zero_page.css"/> <!-- refere-se ao css que zera os espaçamentos vindos por definição -->
+    <link rel="stylesheet" type="text/css" href="lib/css/index.css"/> <!-- refere-se ao css do index-->
+    <link rel="stylesheet" type="text/css" href="lib/css/header.css"/> <!-- refere-se ao css do cabeçalho -->
+    <link rel="stylesheet" type="text/css" href="lib/css/category.css"/> <!-- refere-se ao css da categoria -->
+    <link rel="stylesheet" type="text/css" href="lib/css/footer.css"/> <!-- refere-se ao css do rodapé -->
 
-    <script type="text/javascript" src="js/jquery-3.6.1.min.js"></script> <!-- refere-se ao jQuery responsável por rodar o gif introdutório -->
+    <script type="text/javascript" src="lib/js/jquery-3.6.1.min.js"></script> <!-- refere-se ao jQuery responsável por rodar o gif introdutório -->
     <link rel="icon" type="image/png" href="img/favicon.png" /> <!-- refere-se ao favicon.png -->
     <!--<script type="text/javascript" src="js/scroll.js"></script> -->
-    <script type="text/javascript" src="js/category.js"></script>
-
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    /> <!-- animate.style -->
+    <script type="text/javascript" src="lib/js/category.js"></script>
 </head>
 
     <!-- Estrutura do site/Conteúdo do site -->
 	<body>
 
-        <!-- Introdução da logo DoIn (em formato de gif) ao abrir o index do site 
-        <div id="introduction" class="preload"></div>-->
-        <!-- <script type="text/javascript" src="js/main_script.js"></script> refere-se ao arquivo main_script.js -->
+        <!-- Introdução da logo DoIn (em formato de gif) ao abrir o index do site
+        <div id="introduction" class="preload"></div>  -->
+        <!-- <script type="text/javascript" src="lib/js/main_script.js"></script>  refere-se ao arquivo main_script.js -->
 
 		<!-- Cabeçalho -->
 		<?php
@@ -44,14 +39,13 @@
             <!-- Importância da Troca e doação -->
             <div id="div_presentation">
                 <img class="img_presentation" src="img/presentation.png">
-                
                 <div class="div_text_pres">
                     <h1>Projeto DoIn</h1>
                     <p>Site desenvolvido por estudantes do ensino médio com o objetivo de reduzir o consumismo e preservar o meio ambiente através da doação e troca de 
                     produtos na sociedade brasileira, facilitando o anúncio desses tipos de câmbio por 
                     meio deste site.</p>
                     <p>Se junte a nossa causa</p>
-                    <a href="#" class="a_button"><div class="button_presentation">Doe ou troque produtos agora</div></a>
+                    <a href="cadastro_usuario.php" class="a_button"><div class="button_presentation">Doe ou troque produtos agora</div></a>
                 </div>
             </div>
 
