@@ -14,6 +14,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="lib/css/Formularios/formularios.css">
     <link rel="stylesheet" href="lib/css/Formularios/exclusivoProd.css">
+
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+    
     <title>Formulário</title>
 </head>
 <body>

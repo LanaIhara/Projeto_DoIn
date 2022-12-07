@@ -7,7 +7,7 @@
 </header>
     
 <div class="espaco_header">
-    <?php if(isset($_SESSION['login'])): ?>
+    <?php if(!isset($_SESSION['login'])): ?>
         <a href="#" class="a_button"><div class="div_img_usuario">
             <img src="img/lana.jpg" id="img_usuario">
         </div></a>
@@ -75,8 +75,8 @@
                 <!-- Símbolo da lupa de pesquisa -->
                 <img class="img_symbol img_home" src="img/header/home.png">
             </div></a>
-            
-        <?php if(isset($_SESSION['login'])): ?>
+
+            <?php if(!isset($_SESSION['login'])): ?>
             <a href="cadastro_produto.php" class="a_button"><div class="purple_button button">
                 <!-- Título -->
                 Cadastrar produto

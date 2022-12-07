@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="lib/css/category.css">
         <link rel="stylesheet" href="lib/css/footer.css">
         <link rel="stylesheet" href="lib/css/header.css">
+        <link rel="icon" type="image/png" href="img/favicon.png" />
         <script>
         </script>
     </head>

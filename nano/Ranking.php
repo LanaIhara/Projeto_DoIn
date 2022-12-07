@@ -21,6 +21,7 @@
         document.getElementById('div2').style.display = 'none'
 }</script>
         <link rel="stylesheet" href="lib/css/Ranquing.css">
+        <link rel="icon" type="image/png" href="img/favicon.png" />
     </head>
     <body>
    
