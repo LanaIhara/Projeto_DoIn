@@ -118,15 +118,13 @@ label {
     margin-top: 20px;
     margin-left: 20px;
     position: relative;
-
-    background-color: black;
 }
 
 .div_infoUser {
     height: 100%;
 
     width: calc(60% - 20px);
-    background-color: aqua;
+    background-color: #FCFAEC; /*aqua;*/
     border-radius: 20px;
     display: inline-block;
     vertical-align: top;
@@ -136,7 +134,7 @@ label {
 }
 
 .div_imgUser {
-    background-color: gray;
+    background-color: #57380F;
     height: 100%;
     width: 40%;
 
@@ -154,12 +152,11 @@ label {
 
 .div_infoUser label {
     font-size: large;
-    background-color: yellow;
-    width: 35.5%;
+    margin: 0 10px;
+    width: calc(35.5% - 20px);
 }
 
 .div_cadaInfo {
-    background-color: burlywood;
     margin-top: 17.5px;
     display: flex;
     justify-content: space-between;
@@ -175,7 +172,6 @@ label {
 }
 
 .div_unir_baixo label {
-    background-color: #947FE6;
     padding: 10px;
     border-radius: 20px;
     width: 30%;
@@ -197,6 +193,7 @@ label {
     width: 40%;
     display: inline-block;
     justify-content: space-between;
+    background-color: #FFE0B8;
 }
 
 .label_quant {
@@ -209,7 +206,6 @@ label {
     font-size: small !important;
     margin: auto !important;
     width: 43% !important;
-    background-color: beige;
 }
 
 .sem_mg_top {
