@@ -183,8 +183,11 @@ section p {
     height: 400px;
     width: 100%;
     margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
     background-color: #FFF4A7;
     display: flex;
+    justify-content: space-between;
 }
 .box_desenv {
     background-color: white;
@@ -193,7 +196,8 @@ section p {
     border-style: solid;
     border-width: 3px;
     text-align: center !important;
-    width: 217.5px;
+    /*width: 217.5px;*/
+    width: calc(17.5% - 30px);
     padding: 15px;
     margin-left: 13.5px;
 }

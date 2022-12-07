@@ -139,6 +139,10 @@
                             <img src="img/github.png" class="img_fot_icons">
                         </a>
 
+                        <a href="https://www.instagram.com/alice__balbino_/">
+                            <img src="img/instagram.png" class="img_fot_icons">
+                        </a>
+
                         <p class="p_desenv">Responsável pela formação do cabeçalho e rodapé das páginas,
                             criando a principal e o perfil do usuário. Elaborou a logo e padronização das cores do site.</p>
                     </div>
@@ -151,6 +155,10 @@
                             <img src="img/github.png" class="img_fot_icons">
                         </a>
 
+                        <a href="https://www.instagram.com/evelin_fredb/">
+                            <img src="img/instagram.png" class="img_fot_icons">
+                        </a>
+
                         <p class="p_desenv">Responsável pela formação do cabeçalho e rodapé das páginas,
                             criação da página principal e perfil do usuário. Elaborou o design da logo e coloração do site.</p>
                     </div>
@@ -161,6 +169,10 @@
 
                         <a href="https://github.com/Araujolim">
                             <img src="img/github.png" class="img_fot_icons">
+                        </a>
+
+                        <a href="https://www.instagram.com/ar.giovanna/">
+                            <img src="img/instagram.png" class="img_fot_icons">
                         </a>
 
                         <p class="p_desenv">Responsável pela formação do cabeçalho e rodapé das páginas,
