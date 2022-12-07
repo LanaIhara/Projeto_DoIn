@@ -50,7 +50,7 @@ body {
     height: 65px;
     width: 100%;
     margin-top: 15px;
-    background-color: red;
+    background-color: #FF7DBB;
 
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -92,7 +92,7 @@ body {
 }
 
 #button_perfil {
-    background-color: pink;
+    background-color: #E2F7FF;
 }
 
 #button_product {
@@ -124,13 +124,19 @@ label {
     height: 100%;
 
     width: calc(60% - 20px);
-    background-color: #FCFAEC; /*aqua;*/
+    background-color: #FCFAEC; 
     border-radius: 20px;
     display: inline-block;
     vertical-align: top;
 
     /* Fonte: https://www.clubedohardware.com.br/forums/topic/1520836-como-colocar-divs-uma-ao-lado-da-outra-html-e-css-js/ 
     https://stackoverflow.com/questions/35184954/why-does-div-with-content-move-down-in-inline-block#:~:text=This%20is%20happening%20because%20the,inline%20block%20element%20is%20baseline%20*.&text=As%20you%20can%20see%2C%20the,the%20text%20is%20aligned%20on.*/
+}
+
+.div_config {
+    width: calc(100% - 30px);
+    height: calc(100% - 30px);
+    margin: 15px;
 }
 
 .div_imgUser {
@@ -226,8 +232,6 @@ label {
 
     margin: 20px;
     position: relative;
-
-    background-color: yellow;
     text-align: center; 
 }
 
@@ -237,7 +241,7 @@ label {
     font-size: larger;
     padding: 20px;
     height: 30px;
-    background-color: aqua;
+    background-color: #FFBF65;
     border-radius: 20px;
 }
 
@@ -251,8 +255,9 @@ label {
     margin-top: 20px;
     overflow-y: auto;
     display: inline-block;
-    height: calc(100% - 120px);
-    background-color: red;
+    height: calc(100% - 70px); /*120px);*/
+    border-radius: 20px;
+    background-color: #FFF4A7;
 }
 
 .label_produto {

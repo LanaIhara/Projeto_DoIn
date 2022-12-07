@@ -9,9 +9,9 @@ function select_perfil(){
     /*const div = document.getElementById('perfil');
     
     div.style.backgroundColor = 'white'; */
-    collection[0].style.backgroundColor = "pink";
-    collection[1].style.backgroundColor = "red";
-    collection[2].style.backgroundColor = "red";
+    collection[0].style.backgroundColor = "#E2F7FF";
+    collection[1].style.backgroundColor = "#FF7DBB";
+    collection[2].style.backgroundColor = "#FF7DBB";
 
     appearence[0].style.display = "inline";
     appearence[1].style.display = "none";
@@ -20,9 +20,9 @@ function select_perfil(){
 
 function select_product(){
 
-    collection[0].style.backgroundColor = "red";
-    collection[1].style.backgroundColor = "pink";
-    collection[2].style.backgroundColor = "red";
+    collection[0].style.backgroundColor = "#FF7DBB";
+    collection[1].style.backgroundColor = "#E2F7FF";
+    collection[2].style.backgroundColor = "#FF7DBB";
 
     appearence[0].style.display = "none";
     appearence[1].style.display = "inline";
@@ -31,9 +31,9 @@ function select_product(){
 
 function select_config(){
 
-    collection[0].style.backgroundColor = "red";
-    collection[1].style.backgroundColor = "red";
-    collection[2].style.backgroundColor = "pink";
+    collection[0].style.backgroundColor = "#FF7DBB";
+    collection[1].style.backgroundColor = "#FF7DBB";
+    collection[2].style.backgroundColor = "#E2F7FF";
 
     appearence[0].style.display = "none";
     appearence[1].style.display = "none";

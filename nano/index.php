@@ -143,8 +143,8 @@
                             <img src="img/instagram.png" class="img_fot_icons">
                         </a>
 
-                        <p class="p_desenv">Responsável pela formação do cabeçalho e rodapé das páginas,
-                            criando a principal e o perfil do usuário. Elaborou a logo e padronização das cores do site.</p>
+                        <p class="p_desenv">Responsável pelo cadastro do cliente, fazendo slides para a apresentação
+                             da página e ajudado a escrever a introdução, resumo e outras partes do documento do TCC.</p>
                     </div>
 
                     <div class="box_desenv">
@@ -159,8 +159,8 @@
                             <img src="img/instagram.png" class="img_fot_icons">
                         </a>
 
-                        <p class="p_desenv">Responsável pela formação do cabeçalho e rodapé das páginas,
-                            criação da página principal e perfil do usuário. Elaborou o design da logo e coloração do site.</p>
+                        <p class="p_desenv">Responsável por ajudar a fazer o cadastro do cliente,
+                             auxiliando a realizar a introdução, os requisitos e alguns diagramas do documento do TCC.</p>
                     </div>
 
                     <div class="box_desenv">
@@ -175,8 +175,7 @@
                             <img src="img/instagram.png" class="img_fot_icons">
                         </a>
 
-                        <p class="p_desenv">Responsável pela formação do cabeçalho e rodapé das páginas,
-                            criação da página principal e perfil do usuário. Elaborou o design da logo e coloração do site.</p>
+                        <p class="p_desenv">Criação do cadastro do cliente e ajudado a escrever sobre os requisitos, o resumo e outras partes do documento do TCC.</p>
                     </div>
 
                     <div class="box_desenv">

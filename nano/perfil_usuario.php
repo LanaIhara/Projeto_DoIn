@@ -95,11 +95,11 @@
                     <div class="div_tituloUser">
                         <label class="tituloUser">Fulano de Ciclano Mariano do Valmirando</label>
 
-                        <div class="div_produto">
+                        <!--<div class="div_produto">
                             <button class="tituloUser label_produto">Todos</button>
                             <button class="tituloUser label_produto">Doação</button>
                             <button class="tituloUser label_produto">Troca</button>
-                        </div>
+                        </div>-->
 
                         <div class="all_produto">
                             <div class="div_imgUser">
@@ -125,9 +125,32 @@
                 </div>
 
                 <div class="div_cont_all" id="config">
-                    <!--<div class="yellow">
-                        <button id="toggle">toggle</button>
-                    </div>-->
+
+                    
+                        <div class="div_infoUser div_config">
+
+                            <div class="div_cadaInfo">
+                                <label>Privacidade do perfil: </label>
+                                <p>público</p>
+                            </div>
+
+                            <div class="div_cadaInfo">
+                                <label id="genero">Gênero: </label>
+                                <p>Outros</p>
+                            </div>
+
+                            <div class="div_cadaInfo">
+                                <label id="contato">Para contato: </label>
+                                <p>(não especificado)</p>
+                            </div>
+
+                            <div class="div_cadaInfo">
+                                <label id="ranking">Ranking:</label>
+                                <p>0º</p>
+                            </div>
+                        </div>
+                    
+
                     <label class="switch">
                         <input type="checkbox" id="myCheckBox">
                         <span class="slider round"></span>
